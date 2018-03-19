@@ -1,0 +1,8 @@
+E:\HUY\KiemThu\Source Code\[Sharecode.vn] Source code xay dung phan mem quan ly khach san full code + bao cao\Sourcode\DAO\bin\Release\DAO.dll.config
+E:\HUY\KiemThu\Source Code\[Sharecode.vn] Source code xay dung phan mem quan ly khach san full code + bao cao\Sourcode\DAO\bin\Release\DAO.dll
+E:\HUY\KiemThu\Source Code\[Sharecode.vn] Source code xay dung phan mem quan ly khach san full code + bao cao\Sourcode\DAO\bin\Release\DAO.pdb
+E:\HUY\KiemThu\Source Code\[Sharecode.vn] Source code xay dung phan mem quan ly khach san full code + bao cao\Sourcode\DAO\bin\Release\DTO.dll
+E:\HUY\KiemThu\Source Code\[Sharecode.vn] Source code xay dung phan mem quan ly khach san full code + bao cao\Sourcode\DAO\bin\Release\DTO.pdb
+E:\HUY\KiemThu\Source Code\[Sharecode.vn] Source code xay dung phan mem quan ly khach san full code + bao cao\Sourcode\DAO\obj\Release\DAO.csprojResolveAssemblyReference.cache
+E:\HUY\KiemThu\Source Code\[Sharecode.vn] Source code xay dung phan mem quan ly khach san full code + bao cao\Sourcode\DAO\obj\Release\DAO.dll
+E:\HUY\KiemThu\Source Code\[Sharecode.vn] Source code xay dung phan mem quan ly khach san full code + bao cao\Sourcode\DAO\obj\Release\DAO.pdb
