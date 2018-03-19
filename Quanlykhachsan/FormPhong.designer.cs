@@ -93,7 +93,7 @@
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label4.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.label4.Location = new System.Drawing.Point(35, 164);
+            this.label4.Location = new System.Drawing.Point(32, 165);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(61, 13);
             this.label4.TabIndex = 3;
@@ -123,10 +123,10 @@
             this.columnHeader4});
             this.lsvLoaiPhong.FullRowSelect = true;
             this.lsvLoaiPhong.GridLines = true;
-            this.lsvLoaiPhong.Location = new System.Drawing.Point(303, 26);
+            this.lsvLoaiPhong.Location = new System.Drawing.Point(284, 3);
             this.lsvLoaiPhong.MultiSelect = false;
             this.lsvLoaiPhong.Name = "lsvLoaiPhong";
-            this.lsvLoaiPhong.Size = new System.Drawing.Size(427, 375);
+            this.lsvLoaiPhong.Size = new System.Drawing.Size(417, 298);
             this.lsvLoaiPhong.TabIndex = 8;
             this.lsvLoaiPhong.UseCompatibleStateImageBehavior = false;
             this.lsvLoaiPhong.View = System.Windows.Forms.View.Details;
@@ -156,7 +156,7 @@
             this.tabctrPhong.Location = new System.Drawing.Point(0, 3);
             this.tabctrPhong.Name = "tabctrPhong";
             this.tabctrPhong.SelectedIndex = 0;
-            this.tabctrPhong.Size = new System.Drawing.Size(741, 457);
+            this.tabctrPhong.Size = new System.Drawing.Size(753, 411);
             this.tabctrPhong.TabIndex = 19;
             this.tabctrPhong.MouseClick += new System.Windows.Forms.MouseEventHandler(this.tabctrPhong_MouseClick);
             // 
@@ -174,7 +174,7 @@
             this.tabPhong.Location = new System.Drawing.Point(4, 22);
             this.tabPhong.Name = "tabPhong";
             this.tabPhong.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPhong.Size = new System.Drawing.Size(733, 431);
+            this.tabPhong.Size = new System.Drawing.Size(745, 385);
             this.tabPhong.TabIndex = 0;
             this.tabPhong.Text = "Quản Lý Phòng";
             this.tabPhong.UseVisualStyleBackColor = true;
@@ -183,9 +183,9 @@
             // 
             this.btnSuaPhong.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnSuaPhong.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.btnSuaPhong.Location = new System.Drawing.Point(94, 344);
+            this.btnSuaPhong.Location = new System.Drawing.Point(203, 263);
             this.btnSuaPhong.Name = "btnSuaPhong";
-            this.btnSuaPhong.Size = new System.Drawing.Size(75, 23);
+            this.btnSuaPhong.Size = new System.Drawing.Size(75, 33);
             this.btnSuaPhong.TabIndex = 36;
             this.btnSuaPhong.Text = "Sửa";
             this.btnSuaPhong.UseVisualStyleBackColor = true;
@@ -195,9 +195,9 @@
             // 
             this.btnXoaPhong.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnXoaPhong.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.btnXoaPhong.Location = new System.Drawing.Point(150, 271);
+            this.btnXoaPhong.Location = new System.Drawing.Point(122, 263);
             this.btnXoaPhong.Name = "btnXoaPhong";
-            this.btnXoaPhong.Size = new System.Drawing.Size(75, 23);
+            this.btnXoaPhong.Size = new System.Drawing.Size(75, 33);
             this.btnXoaPhong.TabIndex = 35;
             this.btnXoaPhong.Text = "Xóa";
             this.btnXoaPhong.UseVisualStyleBackColor = true;
@@ -207,9 +207,9 @@
             // 
             this.btnThemPhong.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnThemPhong.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.btnThemPhong.Location = new System.Drawing.Point(57, 271);
+            this.btnThemPhong.Location = new System.Drawing.Point(36, 263);
             this.btnThemPhong.Name = "btnThemPhong";
-            this.btnThemPhong.Size = new System.Drawing.Size(75, 23);
+            this.btnThemPhong.Size = new System.Drawing.Size(75, 33);
             this.btnThemPhong.TabIndex = 34;
             this.btnThemPhong.Text = "Thêm";
             this.btnThemPhong.UseVisualStyleBackColor = true;
@@ -228,10 +228,11 @@
             // 
             // cmbTenLoaiPhong
             // 
+            this.cmbTenLoaiPhong.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.cmbTenLoaiPhong.FormattingEnabled = true;
             this.cmbTenLoaiPhong.Location = new System.Drawing.Point(33, 204);
             this.cmbTenLoaiPhong.Name = "cmbTenLoaiPhong";
-            this.cmbTenLoaiPhong.Size = new System.Drawing.Size(206, 21);
+            this.cmbTenLoaiPhong.Size = new System.Drawing.Size(258, 21);
             this.cmbTenLoaiPhong.TabIndex = 3;
             // 
             // label7
@@ -252,12 +253,13 @@
             this.columnHeader2,
             this.columnHeader7,
             this.columnHeader8});
+            this.lsvPhong.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lsvPhong.FullRowSelect = true;
             this.lsvPhong.GridLines = true;
-            this.lsvPhong.Location = new System.Drawing.Point(265, 6);
+            this.lsvPhong.Location = new System.Drawing.Point(331, 6);
             this.lsvPhong.MultiSelect = false;
             this.lsvPhong.Name = "lsvPhong";
-            this.lsvPhong.Size = new System.Drawing.Size(462, 375);
+            this.lsvPhong.Size = new System.Drawing.Size(396, 375);
             this.lsvPhong.TabIndex = 17;
             this.lsvPhong.UseCompatibleStateImageBehavior = false;
             this.lsvPhong.View = System.Windows.Forms.View.Details;
@@ -286,9 +288,10 @@
             // 
             // txtPhong
             // 
+            this.txtPhong.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtPhong.Location = new System.Drawing.Point(33, 115);
             this.txtPhong.Name = "txtPhong";
-            this.txtPhong.Size = new System.Drawing.Size(206, 20);
+            this.txtPhong.Size = new System.Drawing.Size(258, 20);
             this.txtPhong.TabIndex = 1;
             // 
             // label5
@@ -318,7 +321,7 @@
             this.tabLoaiphong.Location = new System.Drawing.Point(4, 22);
             this.tabLoaiphong.Name = "tabLoaiphong";
             this.tabLoaiphong.Padding = new System.Windows.Forms.Padding(3);
-            this.tabLoaiphong.Size = new System.Drawing.Size(733, 431);
+            this.tabLoaiphong.Size = new System.Drawing.Size(745, 385);
             this.tabLoaiphong.TabIndex = 1;
             this.tabLoaiphong.Text = "Loại Phòng";
             this.tabLoaiphong.UseVisualStyleBackColor = true;
@@ -329,9 +332,9 @@
             // 
             this.btnXoaLoaiPhong.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnXoaLoaiPhong.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.btnXoaLoaiPhong.Location = new System.Drawing.Point(180, 239);
+            this.btnXoaLoaiPhong.Location = new System.Drawing.Point(180, 231);
             this.btnXoaLoaiPhong.Name = "btnXoaLoaiPhong";
-            this.btnXoaLoaiPhong.Size = new System.Drawing.Size(59, 23);
+            this.btnXoaLoaiPhong.Size = new System.Drawing.Size(61, 31);
             this.btnXoaLoaiPhong.TabIndex = 14;
             this.btnXoaLoaiPhong.Text = "Xóa";
             this.btnXoaLoaiPhong.UseVisualStyleBackColor = true;
@@ -341,9 +344,9 @@
             // 
             this.btnSuaLoaiPhong.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnSuaLoaiPhong.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.btnSuaLoaiPhong.Location = new System.Drawing.Point(113, 239);
+            this.btnSuaLoaiPhong.Location = new System.Drawing.Point(113, 231);
             this.btnSuaLoaiPhong.Name = "btnSuaLoaiPhong";
-            this.btnSuaLoaiPhong.Size = new System.Drawing.Size(59, 23);
+            this.btnSuaLoaiPhong.Size = new System.Drawing.Size(61, 31);
             this.btnSuaLoaiPhong.TabIndex = 13;
             this.btnSuaLoaiPhong.Text = "Sửa";
             this.btnSuaLoaiPhong.UseVisualStyleBackColor = true;
@@ -353,9 +356,9 @@
             // 
             this.btnQLVT.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnQLVT.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.btnQLVT.Location = new System.Drawing.Point(142, 279);
+            this.btnQLVT.Location = new System.Drawing.Point(46, 278);
             this.btnQLVT.Name = "btnQLVT";
-            this.btnQLVT.Size = new System.Drawing.Size(99, 23);
+            this.btnQLVT.Size = new System.Drawing.Size(195, 23);
             this.btnQLVT.TabIndex = 11;
             this.btnQLVT.Text = "Quản lý vật tư";
             this.btnQLVT.UseVisualStyleBackColor = true;
@@ -365,9 +368,9 @@
             // 
             this.btnThemLoaiPhong.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnThemLoaiPhong.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.btnThemLoaiPhong.Location = new System.Drawing.Point(46, 239);
+            this.btnThemLoaiPhong.Location = new System.Drawing.Point(46, 231);
             this.btnThemLoaiPhong.Name = "btnThemLoaiPhong";
-            this.btnThemLoaiPhong.Size = new System.Drawing.Size(59, 23);
+            this.btnThemLoaiPhong.Size = new System.Drawing.Size(61, 31);
             this.btnThemLoaiPhong.TabIndex = 9;
             this.btnThemLoaiPhong.Text = "Thêm";
             this.btnThemLoaiPhong.UseVisualStyleBackColor = true;
@@ -377,7 +380,7 @@
             // 
             this.txtSonguoi.Location = new System.Drawing.Point(35, 191);
             this.txtSonguoi.Name = "txtSonguoi";
-            this.txtSonguoi.Size = new System.Drawing.Size(194, 20);
+            this.txtSonguoi.Size = new System.Drawing.Size(206, 20);
             this.txtSonguoi.TabIndex = 4;
             this.txtSonguoi.KeyDown += new System.Windows.Forms.KeyEventHandler(this.txtSonguoi_KeyDown);
             this.txtSonguoi.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtSonguoi_KeyPress);
@@ -390,7 +393,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(753, 455);
+            this.ClientSize = new System.Drawing.Size(765, 442);
             this.Controls.Add(this.tabctrPhong);
             this.Name = "FormPhong";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;

@@ -17,14 +17,15 @@ namespace DAO
         {
             var querry = (from ht in htDataContext.hethongs
                           from nv in htDataContext.nhanviens
-                          where ht.username == user &&
-                          ht.password == pass && ht.manhanvien == nv.manhanvien
+                          where ht.username == user
+                          && ht.password == pass
+                          && ht.manhanvien == nv.manhanvien
                           select new LoginDTO
                           {
-                              Username=ht.username,
-                              TenNV=nv.tennhanvien,
-                              ChucVu=nv.chucvu,
-                              MaNV=nv.manhanvien,
+                              Username = ht.username,
+                              TenNV = nv.tennhanvien,
+                              ChucVu = nv.chucvu,
+                              MaNV = nv.manhanvien,
                           }).Distinct<LoginDTO>();
             return querry.ToList<LoginDTO>();
         }

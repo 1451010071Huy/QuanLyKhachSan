@@ -114,6 +114,7 @@
             // 
             // dtpNgayGio
             // 
+            this.dtpNgayGio.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.dtpNgayGio.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
             this.dtpNgayGio.Location = new System.Drawing.Point(154, 251);
             this.dtpNgayGio.Name = "dtpNgayGio";
@@ -138,6 +139,7 @@
             this.columnHeader14,
             this.columnHeader1,
             this.columnHeader2});
+            this.lsvCTPT.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lsvCTPT.FullRowSelect = true;
             this.lsvCTPT.GridLines = true;
             this.lsvCTPT.Location = new System.Drawing.Point(430, 198);
@@ -189,6 +191,7 @@
             // cmbMaphong
             // 
             this.cmbMaphong.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.cmbMaphong.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.cmbMaphong.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.cmbMaphong.FormattingEnabled = true;
             this.cmbMaphong.Location = new System.Drawing.Point(154, 100);
@@ -200,6 +203,7 @@
             // cmbMaDV
             // 
             this.cmbMaDV.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.cmbMaDV.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.cmbMaDV.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.cmbMaDV.FormattingEnabled = true;
             this.cmbMaDV.Location = new System.Drawing.Point(154, 133);
@@ -237,6 +241,7 @@
             // cmbMaPT
             // 
             this.cmbMaPT.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.cmbMaPT.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.cmbMaPT.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.cmbMaPT.FormattingEnabled = true;
             this.cmbMaPT.Location = new System.Drawing.Point(154, 62);
@@ -247,7 +252,8 @@
             // 
             // numSL
             // 
-            this.numSL.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.numSL.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.numSL.ForeColor = System.Drawing.Color.Black;
             this.numSL.Location = new System.Drawing.Point(153, 211);
             this.numSL.Name = "numSL";
             this.numSL.Size = new System.Drawing.Size(215, 20);
@@ -263,6 +269,7 @@
             this.lsvKH.Columns.AddRange(new System.Windows.Forms.ColumnHeader[] {
             this.columnHeader6,
             this.columnHeader3});
+            this.lsvKH.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lsvKH.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.lsvKH.FullRowSelect = true;
             this.lsvKH.GridLines = true;
@@ -345,10 +352,11 @@
             // labGia
             // 
             this.labGia.AutoSize = true;
-            this.labGia.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.labGia.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labGia.ForeColor = System.Drawing.Color.Black;
             this.labGia.Location = new System.Drawing.Point(153, 181);
             this.labGia.Name = "labGia";
-            this.labGia.Size = new System.Drawing.Size(41, 13);
+            this.labGia.Size = new System.Drawing.Size(35, 13);
             this.labGia.TabIndex = 38;
             this.labGia.Text = "label7";
             // 

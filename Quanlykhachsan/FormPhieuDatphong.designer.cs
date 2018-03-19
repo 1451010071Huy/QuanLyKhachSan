@@ -209,7 +209,8 @@
             this.columnHeader7,
             this.columnHeader8,
             this.columnHeader9});
-            this.lsvTimPhong.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.lsvTimPhong.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lsvTimPhong.ForeColor = System.Drawing.Color.Black;
             this.lsvTimPhong.Location = new System.Drawing.Point(0, 54);
             this.lsvTimPhong.Name = "lsvTimPhong";
             this.lsvTimPhong.Size = new System.Drawing.Size(304, 221);
@@ -267,6 +268,7 @@
             this.tabPage2.Controls.Add(this.groupBox2);
             this.tabPage2.Controls.Add(this.lsvDSPhieuDatPhong);
             this.tabPage2.Controls.Add(this.button1_NhanPhong);
+            this.tabPage2.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.tabPage2.Location = new System.Drawing.Point(4, 22);
             this.tabPage2.Name = "tabPage2";
             this.tabPage2.Padding = new System.Windows.Forms.Padding(3);
@@ -276,6 +278,8 @@
             // 
             // btnHuy
             // 
+            this.btnHuy.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnHuy.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.btnHuy.Location = new System.Drawing.Point(369, 458);
             this.btnHuy.Name = "btnHuy";
             this.btnHuy.Size = new System.Drawing.Size(96, 23);
@@ -302,7 +306,7 @@
             this.chkfin.AutoSize = true;
             this.chkfin.Location = new System.Drawing.Point(333, 10);
             this.chkfin.Name = "chkfin";
-            this.chkfin.Size = new System.Drawing.Size(56, 17);
+            this.chkfin.Size = new System.Drawing.Size(50, 17);
             this.chkfin.TabIndex = 3;
             this.chkfin.Text = "finish";
             this.chkfin.UseVisualStyleBackColor = true;
@@ -313,7 +317,7 @@
             this.chkcan.AutoSize = true;
             this.chkcan.Location = new System.Drawing.Point(242, 10);
             this.chkcan.Name = "chkcan";
-            this.chkcan.Size = new System.Drawing.Size(64, 17);
+            this.chkcan.Size = new System.Drawing.Size(58, 17);
             this.chkcan.TabIndex = 2;
             this.chkcan.Text = "cancel";
             this.chkcan.UseVisualStyleBackColor = true;
@@ -324,7 +328,7 @@
             this.chksub.AutoSize = true;
             this.chksub.Location = new System.Drawing.Point(146, 10);
             this.chksub.Name = "chksub";
-            this.chksub.Size = new System.Drawing.Size(76, 17);
+            this.chksub.Size = new System.Drawing.Size(68, 17);
             this.chksub.TabIndex = 1;
             this.chksub.Text = "submited";
             this.chksub.UseVisualStyleBackColor = true;
@@ -335,7 +339,7 @@
             this.chkwait.AutoSize = true;
             this.chkwait.Location = new System.Drawing.Point(56, 10);
             this.chkwait.Name = "chkwait";
-            this.chkwait.Size = new System.Drawing.Size(70, 17);
+            this.chkwait.Size = new System.Drawing.Size(62, 17);
             this.chkwait.TabIndex = 0;
             this.chkwait.Text = "waitting";
             this.chkwait.UseVisualStyleBackColor = true;
@@ -394,6 +398,8 @@
             // 
             // button1_NhanPhong
             // 
+            this.button1_NhanPhong.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button1_NhanPhong.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.button1_NhanPhong.Location = new System.Drawing.Point(226, 458);
             this.button1_NhanPhong.Name = "button1_NhanPhong";
             this.button1_NhanPhong.Size = new System.Drawing.Size(96, 23);
@@ -539,6 +545,7 @@
             // 
             this.tabControl1.Controls.Add(this.tabPage1);
             this.tabControl1.Controls.Add(this.tabPage2);
+            this.tabControl1.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.tabControl1.Location = new System.Drawing.Point(342, 1);
             this.tabControl1.Multiline = true;
             this.tabControl1.Name = "tabControl1";

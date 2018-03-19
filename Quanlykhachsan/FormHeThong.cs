@@ -27,12 +27,12 @@ namespace Quanlykhachsan
         private void FormHeThong_Load(object sender, EventArgs e)
         {
             txtuser.Focus();
-            show_nguoidung();
+            ShowNguoiDung();
         }
 
         
 
-        private void show_nguoidung()
+        private void ShowNguoiDung()
         {
             lsvnguoidung.Items.Clear();
             nvBUS = new NhanVienBUS();
@@ -63,7 +63,7 @@ namespace Quanlykhachsan
         }
 
       
-        private void show_lcnguoidung(string tim)
+        private void TimNguoiDung(string tim)
         {
             lsvnguoidung.Items.Clear();
             nvBUS = new NhanVienBUS();
@@ -100,7 +100,7 @@ namespace Quanlykhachsan
                 htDTO.Password = frmMain.MaHoa(txtPass.Text);
                 if (htBUS.insertHeThong(htDTO) == 1)
                 {
-                    show_nguoidung();
+                    ShowNguoiDung();
                 }
                 else
                 {
@@ -118,7 +118,7 @@ namespace Quanlykhachsan
                 string fe = txtMaNV.Text;
                 if (htBUS.deleteHeThong(fe) == 1)
                 {
-                    show_nguoidung();
+                    ShowNguoiDung();
                     txtuser.Clear();
                     txtPass.Clear();
                     txtMaNV.Clear();
@@ -161,7 +161,7 @@ namespace Quanlykhachsan
                     }
                     if (htBUS.updateHeThong(htDTO) == 1)
                     {
-                        show_nguoidung();
+                        ShowNguoiDung();
                     }
                     else
                     {
@@ -171,12 +171,6 @@ namespace Quanlykhachsan
                     }
                 }
             }
-        }
-
-        private void lsvnguoidung_SelectedIndexChanged(object sender, EventArgs e)
-        {
-            
-            
         }
 
         private bool kiemtrauser()
@@ -208,7 +202,7 @@ namespace Quanlykhachsan
 
         private void txtTim_KeyUp(object sender, KeyEventArgs e)
         {
-            show_lcnguoidung(txtTim.Text);
+            TimNguoiDung(txtTim.Text);
         }
 
         private void lsvnguoidung_Click(object sender, EventArgs e)
@@ -217,15 +211,6 @@ namespace Quanlykhachsan
             if (lsvnguoidung.SelectedItems.Count <= 0) return;
             txtMaNV.Text = lsvnguoidung.SelectedItems[0].SubItems[0].Text;
             txtuser.Text = lsvnguoidung.SelectedItems[0].SubItems[2].Text;
-            if (lsvnguoidung.SelectedItems[0].SubItems[2].Text != "")
-            {
-                txtuser.Enabled = false;
-            }
-            else
-            {
-                txtuser.Enabled = true;
-            }
-            //txtPass.Text = lsvnguoidung.SelectedItems[0].SubItems[3].Text;
         }
     }
 }

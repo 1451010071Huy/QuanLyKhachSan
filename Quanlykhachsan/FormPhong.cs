@@ -27,21 +27,21 @@ namespace Quanlykhachsan
             InitializeComponent();
             frmMain = frm;
         }
-         private void FormPhong_Load(object sender, EventArgs e)
+        private void FormPhong_Load(object sender, EventArgs e)
         {
             show_cmb_loaiphong();
             Show_phong();
             Show_loaiphong();
         }
-         public void show_cmb_loaiphong()
-         {
-             lpBUS = new LoaiPhongBUS();
-             //cmbTenLoaiPhong.Items.Clear();
-             IList<LoaiPhongDTO> listDTO = lpBUS.getListLoaiPhongAll();
-             cmbTenLoaiPhong.DataSource = listDTO;
-             cmbTenLoaiPhong.DisplayMember = "Maloai";
-             cmbTenLoaiPhong.ValueMember = "Maloai";
-         }
+        public void show_cmb_loaiphong()
+        {
+            lpBUS = new LoaiPhongBUS();
+            //cmbTenLoaiPhong.Items.Clear();
+            IList<LoaiPhongDTO> listDTO = lpBUS.getListLoaiPhongAll();
+            cmbTenLoaiPhong.DataSource = listDTO;
+            cmbTenLoaiPhong.DisplayMember = "Maloai";
+            cmbTenLoaiPhong.ValueMember = "Maloai";
+        }
         public void Show_phong()
         {
             pBUS = new PhongBUS();
@@ -103,20 +103,20 @@ namespace Quanlykhachsan
             {
                 if (MessageBox.Show("Bạn có chắc thực hiện việc này không", "Thông Báo", MessageBoxButtons.YesNo, MessageBoxIcon.Warning) == DialogResult.Yes)
                 {
-                        pBUS = new PhongBUS();
-                        string fe = lsvPhong.SelectedItems[0].SubItems[0].Text;
-                        if (pBUS.deletePhong(fe) == 1)
-                        {
-                            Show_phong();
-                            txtPhong.Clear();
-                            frmMain.CapNhatPhong();
-                        }
-                        else
-                        {
-                            MessageBox.Show("Không thể xóa vì nó đang được tham chiếu!", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Warning);
-                            return;
-                        }
+                    pBUS = new PhongBUS();
+                    string fe = lsvPhong.SelectedItems[0].SubItems[0].Text;
+                    if (pBUS.deletePhong(fe) == 1)
+                    {
+                        Show_phong();
+                        txtPhong.Clear();
+                        frmMain.CapNhatPhong();
                     }
+                    else
+                    {
+                        MessageBox.Show("Không thể xóa vì nó đang được tham chiếu!", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                        return;
+                    }
+                }
                 else
                 {
                     lsvPhong.SelectedItems.Clear();
@@ -186,8 +186,8 @@ namespace Quanlykhachsan
                 frmVT.ShowDialog();
             }
         }
-       
-      
+
+
 
         //Loại Phòng-----------------------------------------------------------
         private void Show_loaiphong()
@@ -206,36 +206,36 @@ namespace Quanlykhachsan
                 //cmbTenLoaiPhong.Items.Add(read["tenloai"].ToString());
             }
         }
-   
+
         private void lsvPhong_SelectedIndexChanged(object sender, EventArgs e)
         {
-            
+
         }
 
         private void btnThemLoaiPhong_Click(object sender, EventArgs e)
         {
-            
+
             if (kiemtra())
             {
-                    lpDTO = new LoaiPhongDTO();
-                    lpDTO.Maloai = txtMaloai.Text;
-                    lpDTO.Gia = decimal.Parse(txtGia.Text);
-                    lpDTO.Songuoi = int.Parse(txtSonguoi.Text);
-                    lpBUS = new LoaiPhongBUS();
-                    if (lpBUS.insertLoaiPhong(lpDTO)==1)
-                    {
-                        Show_loaiphong();
-                        txtMaloai.Clear();
-                        txtGia.Clear();
-                        txtSonguoi.Clear();
-                    }
-                    else
-                    {
-                        MessageBox.Show("Mã loại phòng đã có!");
-                        txtMaloai.SelectAll();
-                        txtMaloai.Focus();
-                        return;
-                    }
+                lpDTO = new LoaiPhongDTO();
+                lpDTO.Maloai = txtMaloai.Text;
+                lpDTO.Gia = decimal.Parse(txtGia.Text);
+                lpDTO.Songuoi = int.Parse(txtSonguoi.Text);
+                lpBUS = new LoaiPhongBUS();
+                if (lpBUS.insertLoaiPhong(lpDTO) == 1)
+                {
+                    Show_loaiphong();
+                    txtMaloai.Clear();
+                    txtGia.Clear();
+                    txtSonguoi.Clear();
+                }
+                else
+                {
+                    MessageBox.Show("Mã loại phòng đã có!");
+                    txtMaloai.SelectAll();
+                    txtMaloai.Focus();
+                    return;
+                }
             }
         }
 
@@ -260,7 +260,7 @@ namespace Quanlykhachsan
                             txtGia.Clear();
                             txtSonguoi.Clear();
                         }
-                        else 
+                        else
                         {
                             MessageBox.Show("Không thể xóa vì nó đang được tham chiếu!", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Warning);
                             return;
@@ -286,7 +286,7 @@ namespace Quanlykhachsan
                 lpBUS = new LoaiPhongBUS();
                 lpDTO = new LoaiPhongDTO();
                 lpDTO.Maloai = lsvLoaiPhong.SelectedItems[0].SubItems[0].Text;
-                lpDTO.Gia =decimal.Parse( txtGia.Text);
+                lpDTO.Gia = decimal.Parse(txtGia.Text);
                 lpDTO.Songuoi = int.Parse(txtSonguoi.Text);
                 lpBUS.updateLoaiPhong(lpDTO);
                 Show_loaiphong();
@@ -317,7 +317,7 @@ namespace Quanlykhachsan
             }
             return true;
         }
-   
+
         private bool gia()
         {
             if (txtGia.Text == "")

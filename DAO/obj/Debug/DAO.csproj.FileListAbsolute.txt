@@ -70,3 +70,11 @@ C:\Users\Luxury\Desktop\QLKS\DAO\bin\Debug\DTO.pdb
 C:\Users\Luxury\Desktop\QLKS\DAO\obj\Debug\DAO.csprojResolveAssemblyReference.cache
 C:\Users\Luxury\Desktop\QLKS\DAO\obj\Debug\DAO.dll
 C:\Users\Luxury\Desktop\QLKS\DAO\obj\Debug\DAO.pdb
+C:\Users\Luxury\Desktop\Viet TestCase\QuanLyKhachSan\DAO\bin\Debug\DAO.dll.config
+C:\Users\Luxury\Desktop\Viet TestCase\QuanLyKhachSan\DAO\bin\Debug\DAO.dll
+C:\Users\Luxury\Desktop\Viet TestCase\QuanLyKhachSan\DAO\bin\Debug\DAO.pdb
+C:\Users\Luxury\Desktop\Viet TestCase\QuanLyKhachSan\DAO\bin\Debug\DTO.dll
+C:\Users\Luxury\Desktop\Viet TestCase\QuanLyKhachSan\DAO\bin\Debug\DTO.pdb
+C:\Users\Luxury\Desktop\Viet TestCase\QuanLyKhachSan\DAO\obj\Debug\DAO.csprojResolveAssemblyReference.cache
+C:\Users\Luxury\Desktop\Viet TestCase\QuanLyKhachSan\DAO\obj\Debug\DAO.dll
+C:\Users\Luxury\Desktop\Viet TestCase\QuanLyKhachSan\DAO\obj\Debug\DAO.pdb

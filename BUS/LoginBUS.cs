@@ -17,7 +17,7 @@ namespace BUS
             {
                 return lgDAO.Login(user, pass);
             }
-            catch
+            catch 
             {
                 throw new Exception("Error!");
             }

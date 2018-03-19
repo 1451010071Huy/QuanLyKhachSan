@@ -124,25 +124,25 @@
             // txtMaDV
             // 
             this.txtMaDV.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.txtMaDV.Location = new System.Drawing.Point(119, 37);
+            this.txtMaDV.Location = new System.Drawing.Point(127, 37);
             this.txtMaDV.Name = "txtMaDV";
-            this.txtMaDV.Size = new System.Drawing.Size(128, 20);
+            this.txtMaDV.Size = new System.Drawing.Size(158, 20);
             this.txtMaDV.TabIndex = 8;
             // 
             // txtTenDV
             // 
             this.txtTenDV.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.txtTenDV.Location = new System.Drawing.Point(119, 74);
+            this.txtTenDV.Location = new System.Drawing.Point(127, 74);
             this.txtTenDV.Name = "txtTenDV";
-            this.txtTenDV.Size = new System.Drawing.Size(128, 20);
+            this.txtTenDV.Size = new System.Drawing.Size(158, 20);
             this.txtTenDV.TabIndex = 9;
             // 
             // txtGia
             // 
             this.txtGia.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.txtGia.Location = new System.Drawing.Point(119, 142);
+            this.txtGia.Location = new System.Drawing.Point(127, 142);
             this.txtGia.Name = "txtGia";
-            this.txtGia.Size = new System.Drawing.Size(128, 20);
+            this.txtGia.Size = new System.Drawing.Size(158, 20);
             this.txtGia.TabIndex = 10;
             this.txtGia.KeyDown += new System.Windows.Forms.KeyEventHandler(this.txtGia_KeyDown);
             this.txtGia.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtGia_KeyPress);
@@ -162,9 +162,9 @@
             // 
             this.cmbDVtinh.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.cmbDVtinh.FormattingEnabled = true;
-            this.cmbDVtinh.Location = new System.Drawing.Point(119, 109);
+            this.cmbDVtinh.Location = new System.Drawing.Point(127, 109);
             this.cmbDVtinh.Name = "cmbDVtinh";
-            this.cmbDVtinh.Size = new System.Drawing.Size(128, 21);
+            this.cmbDVtinh.Size = new System.Drawing.Size(158, 21);
             this.cmbDVtinh.TabIndex = 13;
             // 
             // loi
@@ -175,9 +175,9 @@
             // 
             this.btnThem.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnThem.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.btnThem.Location = new System.Drawing.Point(348, 39);
+            this.btnThem.Location = new System.Drawing.Point(333, 37);
             this.btnThem.Name = "btnThem";
-            this.btnThem.Size = new System.Drawing.Size(75, 23);
+            this.btnThem.Size = new System.Drawing.Size(106, 38);
             this.btnThem.TabIndex = 15;
             this.btnThem.Text = "Thêm";
             this.btnThem.UseVisualStyleBackColor = true;
@@ -187,9 +187,9 @@
             // 
             this.btnXoa.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnXoa.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.btnXoa.Location = new System.Drawing.Point(348, 81);
+            this.btnXoa.Location = new System.Drawing.Point(333, 81);
             this.btnXoa.Name = "btnXoa";
-            this.btnXoa.Size = new System.Drawing.Size(75, 23);
+            this.btnXoa.Size = new System.Drawing.Size(106, 38);
             this.btnXoa.TabIndex = 16;
             this.btnXoa.Text = "Xóa";
             this.btnXoa.UseVisualStyleBackColor = true;
@@ -199,9 +199,9 @@
             // 
             this.btnSua.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnSua.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.btnSua.Location = new System.Drawing.Point(348, 123);
+            this.btnSua.Location = new System.Drawing.Point(333, 123);
             this.btnSua.Name = "btnSua";
-            this.btnSua.Size = new System.Drawing.Size(75, 23);
+            this.btnSua.Size = new System.Drawing.Size(106, 38);
             this.btnSua.TabIndex = 17;
             this.btnSua.Text = "Sửa";
             this.btnSua.UseVisualStyleBackColor = true;
