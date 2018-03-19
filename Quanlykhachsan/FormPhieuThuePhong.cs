@@ -302,10 +302,7 @@ namespace Quanlykhachsan
                 if (MessageBox.Show("Bạn có chắc thực hiện việc này không", "Thông Báo", MessageBoxButtons.YesNo, MessageBoxIcon.Warning) == DialogResult.Yes)
                 {
                     cttpBUS = new ChiTietThuePhongBUS();
-                    cttpDT0.Maphieuthue = cmbMaPT.SelectedItem.ToString();
-                    cttpDT0.Maphong = cmbMaphong.SelectedValue.ToString();
-                    cttpDT0.Ngay = dtpNgayGio.Value;
-                    if (cttpBUS.deleteChiTietThuePhong(cmbMaPT.SelectedItem.ToString(), cmbMaphong.SelectedValue.ToString(), dtpNgayGio.Value, cmbMaDV.SelectedValue.ToString()) == 1)
+                    if (cttpBUS.deleteChiTietThuePhong(cmbMaPT.Text, cmbMaphong.Text, dtpNgayGio.Value , cmbMaDV.SelectedValue.ToString()) == 1)
                     {
                         show_CTTP();
                     }
@@ -397,11 +394,6 @@ namespace Quanlykhachsan
         private void btnThem_MouseMove(object sender, MouseEventArgs e)
         {
             dtpNgayGio.Value = DateTime.Now;
-        }
-
-        private void FormPhieuThuePhong_SizeChanged(object sender, EventArgs e)
-        {
-
         }
     }
 }

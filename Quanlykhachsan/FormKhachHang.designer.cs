@@ -448,6 +448,7 @@
             this.Controls.Add(this.lsvKhachhang);
             this.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Name = "FormKhachHang";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
             this.Text = "Quản Lý Khách Hàng";
             this.Load += new System.EventHandler(this.FormKhachHang_Load);
             ((System.ComponentModel.ISupportInitialize)(this.loi)).EndInit();

@@ -52,6 +52,7 @@
             this.ClientSize = new System.Drawing.Size(529, 345);
             this.Controls.Add(this.crv);
             this.Name = "InHoaDon";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
             this.Text = "InHoaDon";
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.Load += new System.EventHandler(this.InHoaDon_Load);

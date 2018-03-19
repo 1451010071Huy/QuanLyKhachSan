@@ -30,3 +30,35 @@ E:\HUY\KiemThu\Source Code\[Sharecode.vn] Source code xay dung phan mem quan ly 
 E:\HUY\KiemThu\Source Code\[Sharecode.vn] Source code xay dung phan mem quan ly khach san full code + bao cao\Sourcode\Quanlykhachsan3lop\obj\Release\Quanlykhachsan.csproj.GenerateResource.Cache
 E:\HUY\KiemThu\Source Code\[Sharecode.vn] Source code xay dung phan mem quan ly khach san full code + bao cao\Sourcode\Quanlykhachsan3lop\obj\Release\Quanlykhachsan.exe
 E:\HUY\KiemThu\Source Code\[Sharecode.vn] Source code xay dung phan mem quan ly khach san full code + bao cao\Sourcode\Quanlykhachsan3lop\obj\Release\Quanlykhachsan.pdb
+C:\Users\Luxury\Desktop\QLKS\Quanlykhachsan\bin\Release\Quanlykhachsan.exe.config
+C:\Users\Luxury\Desktop\QLKS\Quanlykhachsan\bin\Release\Quanlykhachsan.exe
+C:\Users\Luxury\Desktop\QLKS\Quanlykhachsan\bin\Release\Quanlykhachsan.pdb
+C:\Users\Luxury\Desktop\QLKS\Quanlykhachsan\bin\Release\BUS.dll
+C:\Users\Luxury\Desktop\QLKS\Quanlykhachsan\bin\Release\DAO.dll
+C:\Users\Luxury\Desktop\QLKS\Quanlykhachsan\bin\Release\DTO.dll
+C:\Users\Luxury\Desktop\QLKS\Quanlykhachsan\bin\Release\BUS.pdb
+C:\Users\Luxury\Desktop\QLKS\Quanlykhachsan\bin\Release\DAO.pdb
+C:\Users\Luxury\Desktop\QLKS\Quanlykhachsan\bin\Release\DTO.pdb
+C:\Users\Luxury\Desktop\QLKS\Quanlykhachsan\obj\Release\Quanlykhachsan.csprojResolveAssemblyReference.cache
+C:\Users\Luxury\Desktop\QLKS\Quanlykhachsan\obj\Release\Quanlykhachsan.FormAbout.resources
+C:\Users\Luxury\Desktop\QLKS\Quanlykhachsan\obj\Release\Quanlykhachsan.FormBaoCaoNhanVien.resources
+C:\Users\Luxury\Desktop\QLKS\Quanlykhachsan\obj\Release\Quanlykhachsan.FormBaoCaoVatTu.resources
+C:\Users\Luxury\Desktop\QLKS\Quanlykhachsan\obj\Release\Quanlykhachsan.FormCRThongKeDatPhong.resources
+C:\Users\Luxury\Desktop\QLKS\Quanlykhachsan\obj\Release\Quanlykhachsan.FormDichVu.resources
+C:\Users\Luxury\Desktop\QLKS\Quanlykhachsan\obj\Release\Quanlykhachsan.FormDoiMatKhau.resources
+C:\Users\Luxury\Desktop\QLKS\Quanlykhachsan\obj\Release\Quanlykhachsan.FormHeThong.resources
+C:\Users\Luxury\Desktop\QLKS\Quanlykhachsan\obj\Release\Quanlykhachsan.FormHoaDon.resources
+C:\Users\Luxury\Desktop\QLKS\Quanlykhachsan\obj\Release\Quanlykhachsan.FormKhachHang.resources
+C:\Users\Luxury\Desktop\QLKS\Quanlykhachsan\obj\Release\Quanlykhachsan.FormLogin.resources
+C:\Users\Luxury\Desktop\QLKS\Quanlykhachsan\obj\Release\Quanlykhachsan.FormMain.resources
+C:\Users\Luxury\Desktop\QLKS\Quanlykhachsan\obj\Release\Quanlykhachsan.FormNhanVien.resources
+C:\Users\Luxury\Desktop\QLKS\Quanlykhachsan\obj\Release\Quanlykhachsan.FormPhieuDatphong.resources
+C:\Users\Luxury\Desktop\QLKS\Quanlykhachsan\obj\Release\Quanlykhachsan.FormPhieuThuePhong.resources
+C:\Users\Luxury\Desktop\QLKS\Quanlykhachsan\obj\Release\Quanlykhachsan.FormPhong.resources
+C:\Users\Luxury\Desktop\QLKS\Quanlykhachsan\obj\Release\Quanlykhachsan.FormThongKeDatPhong.resources
+C:\Users\Luxury\Desktop\QLKS\Quanlykhachsan\obj\Release\Quanlykhachsan.FormVatTu.resources
+C:\Users\Luxury\Desktop\QLKS\Quanlykhachsan\obj\Release\Quanlykhachsan.InHoaDon.resources
+C:\Users\Luxury\Desktop\QLKS\Quanlykhachsan\obj\Release\Quanlykhachsan.Properties.Resources.resources
+C:\Users\Luxury\Desktop\QLKS\Quanlykhachsan\obj\Release\Quanlykhachsan.csproj.GenerateResource.Cache
+C:\Users\Luxury\Desktop\QLKS\Quanlykhachsan\obj\Release\Quanlykhachsan.exe
+C:\Users\Luxury\Desktop\QLKS\Quanlykhachsan\obj\Release\Quanlykhachsan.pdb

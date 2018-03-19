@@ -401,6 +401,7 @@
             this.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.Name = "FormNhanVien";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
             this.Text = "Quản Lý Nhân Viên";
             this.Load += new System.EventHandler(this.FormNhanVien_Load);
             ((System.ComponentModel.ISupportInitialize)(this.loi)).EndInit();

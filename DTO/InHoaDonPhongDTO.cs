@@ -7,122 +7,122 @@ namespace DTO
 {
     public class InHoaDonPhongDTO
     {
-        private string m_mahoadon;
-        private string m_tenkhachhang;
-        private string m_cmnd;
-        private string m_diachi;
-        private string m_coquan;
-        private string m_sodienthoai;
-        private string m_email;
-        private DateTime m_ngayden;
-        private DateTime m_ngaydi;
-        private decimal m_sotiendatcoc;
-        private decimal m_gia;
-        private int m_songayo;
-        private string m_maphong;
-        private string m_tennhanvien;
-        private decimal m_tongtien;
+        private string maHoaDon;
+        private string tenKhachHang;
+        private string cmnd;
+        private string diaChi;
+        private string coQuan;
+        private string sdt;
+        private string email;
+        private DateTime ngayDen;
+        private DateTime ngayDi;
+        private decimal soTienDatCoc;
+        private decimal gia;
+        private int soNgayO;
+        private string maPhong;
+        private string tenNhanVien;
+        private decimal tongTien;
 
         public string Mahoadon
         {
             get
             {
-                return m_mahoadon;
+                return maHoaDon;
             }
             set
             {
-                m_mahoadon = value;
+                maHoaDon = value;
             }
         }
 
         public string Tenkhachhang
         {
-            get { return m_tenkhachhang;  }
+            get { return tenKhachHang;  }
             set
             {
-                m_tenkhachhang = value;
+                tenKhachHang = value;
             }
         }
 
         public string CMND
         {
-            get { return m_cmnd; }
-            set { m_cmnd = value; }
+            get { return cmnd; }
+            set { cmnd = value; }
         }
 
         public string Diachi
         {
-            get { return m_diachi; }
-            set { m_diachi = value; }
+            get { return diaChi; }
+            set { diaChi = value; }
         }
 
         public string Coquan
         {
-            get { return m_coquan; }
-            set { m_coquan = value; }
+            get { return coQuan; }
+            set { coQuan = value; }
         }
 
         public string Sodienthoai
         {
-            get { return m_sodienthoai; }
-            set { m_sodienthoai = value; }
+            get { return sdt; }
+            set { sdt = value; }
         }
 
         public string Email
         {
-            get { return m_email; }
-            set { m_email = value; }
+            get { return email; }
+            set { email = value; }
         }
 
         public DateTime Ngayden
         {
-            get { return m_ngayden; }
-            set { m_ngayden = value; }
+            get { return ngayDen; }
+            set { ngayDen = value; }
         }
 
         public DateTime Ngaydi
         {
-            get { return m_ngaydi; }
-            set { m_ngaydi = value; }
+            get { return ngayDi; }
+            set { ngayDi = value; }
         }
 
         public decimal Sotiendatcoc
         {
-            get { return m_sotiendatcoc; }
-            set { m_sotiendatcoc = value; }
+            get { return soTienDatCoc; }
+            set { soTienDatCoc = value; }
         }
 
         public decimal Gia
         {
-            get { return m_gia; }
-            set { m_gia = value; }
+            get { return gia; }
+            set { gia = value; }
         }
 
         public int Songayo
         {
-            get { return m_songayo; }
+            get { return soNgayO; }
             set
             {
-                m_songayo = value;
+                soNgayO = value;
             }
         }
 
         public string Maphong
         {
-            get { return m_maphong; }
-            set { m_maphong = value; }
+            get { return maPhong; }
+            set { maPhong = value; }
         }
 
         public string Tennhanvien
         {
-            get { return m_tennhanvien; }
-            set { m_tennhanvien = value; }
+            get { return tenNhanVien; }
+            set { tenNhanVien = value; }
         }
 
         public decimal Tongtien
         {
-            get { return m_tongtien; }
-            set { m_tongtien = value; }
+            get { return tongTien; }
+            set { tongTien = value; }
         }
     }
 }

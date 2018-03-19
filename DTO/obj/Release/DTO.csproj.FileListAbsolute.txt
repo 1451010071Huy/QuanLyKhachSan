@@ -2,3 +2,7 @@ E:\HUY\KiemThu\Source Code\[Sharecode.vn] Source code xay dung phan mem quan ly 
 E:\HUY\KiemThu\Source Code\[Sharecode.vn] Source code xay dung phan mem quan ly khach san full code + bao cao\Sourcode\DTO\bin\Release\DTO.pdb
 E:\HUY\KiemThu\Source Code\[Sharecode.vn] Source code xay dung phan mem quan ly khach san full code + bao cao\Sourcode\DTO\obj\Release\DTO.dll
 E:\HUY\KiemThu\Source Code\[Sharecode.vn] Source code xay dung phan mem quan ly khach san full code + bao cao\Sourcode\DTO\obj\Release\DTO.pdb
+C:\Users\Luxury\Desktop\QLKS\DTO\bin\Release\DTO.dll
+C:\Users\Luxury\Desktop\QLKS\DTO\bin\Release\DTO.pdb
+C:\Users\Luxury\Desktop\QLKS\DTO\obj\Release\DTO.dll
+C:\Users\Luxury\Desktop\QLKS\DTO\obj\Release\DTO.pdb

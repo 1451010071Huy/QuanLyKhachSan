@@ -108,6 +108,7 @@
             this.Controls.Add(this.rdTatCa);
             this.Controls.Add(this.label1);
             this.Name = "FormBaoCaoNhanVien";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Báo cáo nhân viên";
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.Load += new System.EventHandler(this.FormBaoCaoNhanVien_Load);

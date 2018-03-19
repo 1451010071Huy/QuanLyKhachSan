@@ -44,7 +44,6 @@ namespace Quanlykhachsan
 
         private void FormMain_Load(object sender, EventArgs e)
         {
-            DangNhapToolStripMenuItem.Enabled = false;
             MainNoEnabled();
             frmLogin = new FormLogin();
             frmLogin.frmMain = this;
@@ -65,7 +64,7 @@ namespace Quanlykhachsan
             {
                 MainEnNhanVien();
             }
-            labUser.Text = "Hi! " + m_username.ToUpper();
+            labUser.Text = "Xin chào! " + m_username.ToUpper();
             CapNhatPhong();
         }
 
@@ -128,18 +127,19 @@ namespace Quanlykhachsan
         {
             DangNhapToolStripMenuItem.Enabled = true;
             MainNoEnabled();
-            MessageBox.Show("Bạn vừa đăng xuất thành công!","Thông Báo",MessageBoxButtons.OK);
+            MessageBox.Show("Bạn vừa đăng xuất thành công!", "Thông Báo", MessageBoxButtons.OK);
             lsvMain.Enabled = false;
-            labUser.Text = "No User";
+            labUser.Text = "Vui Lòng Đăng Nhập";
         }
-        private void FormDoiMatKhau() {
+        private void DoiMatKhau()
+        {
             frmDoimatkhau = new FormDoiMatKhau();
             frmDoimatkhau.frmMain = this;
             frmDoimatkhau.ShowDialog();
         }
-        private void đổiMậtKhẩuToolStripMenuItem_Click(object sender, EventArgs e)
+        private void doiMatKhauToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            FormDoiMatKhau();
+            DoiMatKhau();
         }
 
         private void thoátToolStripMenuItem_Click(object sender, EventArgs e)
@@ -217,10 +217,12 @@ namespace Quanlykhachsan
             ThuePhongToolStripMenu.Enabled = true;
             BaoCaoToolStripMenu.Enabled = true;
             DangXuatToolStripMenuItem.Enabled = true;
+            DangNhapToolStripMenuItem.Enabled = false;
         }
 
         private void MainNoEnabled()
         {
+
             QuanLyToolStripMenu.Enabled = false;
             DoiMatKhauToolStripMenuItem.Enabled = false;
             KhachHangToolStripMenu.Enabled = false;
@@ -231,6 +233,7 @@ namespace Quanlykhachsan
 
         private void MainEnQuanLy()
         {
+            DangNhapToolStripMenuItem.Enabled = false;
             QuanLyToolStripMenu.Enabled = true;
             DoiMatKhauToolStripMenuItem.Enabled = true;
             KhachHangToolStripMenu.Enabled = true;
@@ -247,6 +250,8 @@ namespace Quanlykhachsan
             ThuePhongToolStripMenu.Enabled = true;
             BaoCaoToolStripMenu.Enabled = false;
             DangXuatToolStripMenuItem.Enabled = true;
+            DangNhapToolStripMenuItem.Enabled = false;
+
         }
 
         private void MainNoEnQuanLy(Button bt)
@@ -501,8 +506,7 @@ namespace Quanlykhachsan
             frm.frmMain = this;
             frm.ShowDialog();
         }
-
-        private void DangNhapToolStripMenuItem_Click_1(object sender, EventArgs e)
+        private void DangNhap()
         {
             frmLogin = new FormLogin();
             frmLogin.frmMain = this;
@@ -522,11 +526,9 @@ namespace Quanlykhachsan
             labUser.Text = "Hi! " + m_username.ToUpper();
             lsvMain.Enabled = true;
         }
-
-        private void labUser_Click(object sender, EventArgs e)
+        private void DangNhapToolStripMenuItem_Click_1(object sender, EventArgs e)
         {
-            FormDoiMatKhau();
+            DangNhap();
         }
-
     }
 }

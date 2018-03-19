@@ -7,19 +7,19 @@ namespace DTO
 {
     public class LoaiPhongDTO
     {
-        private string m_maloai;
-        private decimal m_gia;
-        private int m_songuoi;
+        private string maLoai;
+        private decimal gia;
+        private int soNguoi;
 
         public string Maloai
         {
             get
             {
-                return m_maloai;
+                return maLoai;
             }
             set
             {
-                m_maloai = value;
+                maLoai = value;
             }
         }
 
@@ -27,11 +27,11 @@ namespace DTO
         {
             get
             {
-                return m_gia;
+                return gia;
             }
             set
             {
-                m_gia = value;
+                gia = value;
             }
         }
 
@@ -39,11 +39,11 @@ namespace DTO
         {
             get
             {
-                return m_songuoi;
+                return soNguoi;
             }
             set
             {
-                m_songuoi = value;
+                soNguoi = value;
             }
         }
     }

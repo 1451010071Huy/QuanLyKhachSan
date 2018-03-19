@@ -379,9 +379,9 @@
             this.Controls.Add(this.label1);
             this.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Name = "FormPhieuThuePhong";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
             this.Text = "Phiếu Thuê Phòng";
             this.Load += new System.EventHandler(this.FormPhieuThuePhong_Load);
-            this.SizeChanged += new System.EventHandler(this.FormPhieuThuePhong_SizeChanged);
             ((System.ComponentModel.ISupportInitialize)(this.loi)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.numSL)).EndInit();
             this.ResumeLayout(false);

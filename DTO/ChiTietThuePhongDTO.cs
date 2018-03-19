@@ -7,21 +7,21 @@ namespace DTO
 {
     public class ChiTietThuePhongDTO
     {
-        private string m_maphieuthue;
-        private string m_maphong;
-        private DateTime m_ngay;
-        private string m_madichvu;
-        private int m_soluong;
+        private string maPhieuThue;
+        private string maPhong;
+        private DateTime ngay;
+        private string maDichVu;
+        private int soLuong;
 
         public string Maphieuthue
         {
             get
             {
-                return m_maphieuthue;
+                return maPhieuThue;
             }
             set
             {
-                m_maphieuthue = value;
+                maPhieuThue = value;
             }
         }
 
@@ -29,11 +29,11 @@ namespace DTO
         {
             get
             {
-                return m_maphong;
+                return maPhong;
             }
             set
             {
-                m_maphong = value;
+                maPhong = value;
             }
         }
 
@@ -41,11 +41,11 @@ namespace DTO
         {
             get
             {
-                return m_ngay;
+                return ngay;
             }
             set
             {
-                m_ngay = value;
+                ngay = value;
             }
         }
 
@@ -53,11 +53,11 @@ namespace DTO
         {
             get
             {
-                return m_madichvu;
+                return maDichVu;
             }
             set
             {
-                m_madichvu = value;
+                maDichVu = value;
             }
         }
 
@@ -65,11 +65,11 @@ namespace DTO
         {
             get
             {
-                return m_soluong;
+                return soLuong;
             }
             set 
             { 
-                m_soluong = value;
+                soLuong = value;
             }
         }
     }

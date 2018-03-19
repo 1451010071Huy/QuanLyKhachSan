@@ -7,19 +7,19 @@ namespace DTO
 {
     public class HeThongDTO
     {
-        private string m_username;
-        private string m_manhanvien;
-        private string m_password;
+        private string userName;
+        private string maNhanVien;
+        private string password;
 
         public string Username
         {
             get
             {
-                return m_username;
+                return userName;
             }
             set
             {
-                m_username = value;
+                userName = value;
             }
         }
 
@@ -27,11 +27,11 @@ namespace DTO
         {
             get
             {
-                return m_manhanvien;
+                return maNhanVien;
             }
             set
             {
-                m_manhanvien = value;
+                maNhanVien = value;
             }
         }
 
@@ -39,11 +39,11 @@ namespace DTO
         {
             get
             {
-                return m_password;
+                return password;
             }
             set
             {
-                m_password = value;
+                password = value;
             }
         }
     }

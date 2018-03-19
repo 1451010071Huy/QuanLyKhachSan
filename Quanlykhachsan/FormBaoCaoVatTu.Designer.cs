@@ -89,6 +89,7 @@
             this.Controls.Add(this.lsvPhong);
             this.Controls.Add(this.trvPhong);
             this.Name = "FormBaoCaoVatTu";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Báo cáo vật tư";
             this.Load += new System.EventHandler(this.FormBaoCaoVatTu_Load);
             this.ResumeLayout(false);

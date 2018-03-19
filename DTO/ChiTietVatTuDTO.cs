@@ -7,19 +7,19 @@ namespace DTO
 {
     public class ChiTietVatTuDTO
     {
-        private string m_mavattu;
-        private string m_maloaiphong;
-        private int m_soluong;
+        private string maVatTu;
+        private string maLoaiPhong;
+        private int soLuong;
 
         public string Mavattu
         {
             get
             {
-                return m_mavattu;
+                return maVatTu;
             }
             set
             {
-                m_mavattu = value;
+                maVatTu = value;
             }
         }
 
@@ -27,11 +27,11 @@ namespace DTO
         {
             get
             {
-                return m_maloaiphong;
+                return maLoaiPhong;
             }
             set
             {
-                m_maloaiphong = value;
+                maLoaiPhong = value;
             }
         }
 
@@ -39,11 +39,11 @@ namespace DTO
         {
             get 
             { 
-                return m_soluong;
+                return soLuong;
             }
             set
             {
-                m_soluong = value;
+                soLuong = value;
             }
         }
     }

@@ -6,3 +6,11 @@ E:\HUY\KiemThu\Source Code\[Sharecode.vn] Source code xay dung phan mem quan ly 
 E:\HUY\KiemThu\Source Code\[Sharecode.vn] Source code xay dung phan mem quan ly khach san full code + bao cao\Sourcode\DAO\obj\Release\DAO.csprojResolveAssemblyReference.cache
 E:\HUY\KiemThu\Source Code\[Sharecode.vn] Source code xay dung phan mem quan ly khach san full code + bao cao\Sourcode\DAO\obj\Release\DAO.dll
 E:\HUY\KiemThu\Source Code\[Sharecode.vn] Source code xay dung phan mem quan ly khach san full code + bao cao\Sourcode\DAO\obj\Release\DAO.pdb
+C:\Users\Luxury\Desktop\QLKS\DAO\bin\Release\DAO.dll.config
+C:\Users\Luxury\Desktop\QLKS\DAO\bin\Release\DAO.dll
+C:\Users\Luxury\Desktop\QLKS\DAO\bin\Release\DAO.pdb
+C:\Users\Luxury\Desktop\QLKS\DAO\bin\Release\DTO.dll
+C:\Users\Luxury\Desktop\QLKS\DAO\bin\Release\DTO.pdb
+C:\Users\Luxury\Desktop\QLKS\DAO\obj\Release\DAO.csprojResolveAssemblyReference.cache
+C:\Users\Luxury\Desktop\QLKS\DAO\obj\Release\DAO.dll
+C:\Users\Luxury\Desktop\QLKS\DAO\obj\Release\DAO.pdb

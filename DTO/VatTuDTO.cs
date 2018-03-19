@@ -7,18 +7,18 @@ namespace DTO
 {
     public class VatTuDTO
     {
-        private string m_mavattu;
-        private string m_tenvattu;
+        private string maVatTu;
+        private string tenVatTu;
 
         public string Mavattu
         {
             get 
             { 
-                return m_mavattu; 
+                return maVatTu; 
             }
             set 
             { 
-                m_mavattu = value; 
+                maVatTu = value; 
             }
         }
 
@@ -26,11 +26,11 @@ namespace DTO
         {
             get
             {
-                return m_tenvattu;
+                return tenVatTu;
             }
             set
             {
-                m_tenvattu = value;
+                tenVatTu = value;
             }
         }
     }

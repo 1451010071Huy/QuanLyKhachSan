@@ -52,6 +52,7 @@
             this.ClientSize = new System.Drawing.Size(697, 402);
             this.Controls.Add(this.crv);
             this.Name = "FormCRThongKeDatPhong";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "FormCRThongKeDatPhong";
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.Load += new System.EventHandler(this.FormCRThongKeDatPhong_Load);

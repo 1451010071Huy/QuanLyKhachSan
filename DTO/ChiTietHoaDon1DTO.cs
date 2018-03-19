@@ -8,27 +8,27 @@ namespace DTO
     public class ChiTietHoaDon1DTO
     {
 
-        private string m_mahoadon;
-        private string m_phong;
-        private float m_giaphong;
-        private DateTime m_ngayden;
-        private DateTime m_ngaydi;
-        private int m_songayo;
-        private float m_thanhtien;
-        private string m_nhanvien;
-        private string m_khachhang;
-        private float m_tiendatcoc;
-        private float m_tiendichvu;
+        private string maHoaDon;
+        private string phong;
+        private float giaPhong;
+        private DateTime ngayDen;
+        private DateTime ngayDi;
+        private int soNgayO;
+        private float thanhTien;
+        private string nhanVien;
+        private string khachHang;
+        private float tienDatCoc;
+        private float tienDichVu;
 
         public string Mahoadon
         {
             get
             {
-                return m_mahoadon;
+                return maHoaDon;
             }
             set
             {
-                m_mahoadon = value;
+                maHoaDon = value;
             }
         }
 
@@ -36,11 +36,11 @@ namespace DTO
         {
             get
             {
-                return m_phong;
+                return phong;
             }
             set
             {
-                m_phong = value;
+                phong = value;
             }
         }
 
@@ -48,11 +48,11 @@ namespace DTO
         {
             get
             {
-                return m_giaphong;
+                return giaPhong;
             }
             set
             {
-                m_giaphong = value;
+                giaPhong = value;
             }
         }
 
@@ -60,11 +60,11 @@ namespace DTO
         {
             get
             {
-                return m_ngayden;
+                return ngayDen;
             }
             set
             {
-                m_ngayden = value;
+                ngayDen = value;
             }
         }
 
@@ -72,11 +72,11 @@ namespace DTO
         {
             get
             {
-                return m_ngaydi;
+                return ngayDi;
             }
             set
             {
-                m_ngaydi = value;
+                ngayDi = value;
             }
         }
 
@@ -84,11 +84,11 @@ namespace DTO
         {
             get
             {
-                return m_songayo;
+                return soNgayO;
             }
             set
             {
-                m_songayo = value;
+                soNgayO = value;
             }
         }
 
@@ -96,11 +96,11 @@ namespace DTO
         {
             get
             {
-                return m_thanhtien;
+                return thanhTien;
             }
             set
             {
-                m_thanhtien = value;
+                thanhTien = value;
             }
         }
 
@@ -108,11 +108,11 @@ namespace DTO
         {
             get
             {
-                return m_nhanvien;
+                return nhanVien;
             }
             set
             {
-                m_nhanvien = value;
+                nhanVien = value;
             }
         }
 
@@ -120,11 +120,11 @@ namespace DTO
         {
             get
             {
-                return m_khachhang;
+                return khachHang;
             }
             set
             {
-                m_khachhang = value;
+                khachHang = value;
             }
         }
 
@@ -132,11 +132,11 @@ namespace DTO
         {
             get
             {
-                return m_tiendatcoc;
+                return tienDatCoc;
             }
             set
             {
-                m_tiendatcoc = value;
+                tienDatCoc = value;
             }
         }
 
@@ -144,11 +144,11 @@ namespace DTO
         {
             get
             {
-                return m_tiendichvu;
+                return tienDichVu;
             }
             set
             {
-                m_tiendichvu = value;
+                tienDichVu = value;
             }
         }
     }

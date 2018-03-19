@@ -8,22 +8,22 @@ namespace DTO
     public class ChiTietHoaDon2DTO
     {
 
-        private string m_mahoadon;
-        private string m_dichvu;
-        private string m_phong;
-        private DateTime m_ngayDV;
-        private float m_giaDV;
-        private int m_soluongDV;
+        private string maHoaDon;
+        private string dichVu;
+        private string phong;
+        private DateTime ngayDichVu;
+        private float giaDichVu;
+        private int soLuongDichVu;
 
         public string Mahoadon
         {
             get
             {
-                return m_mahoadon;
+                return maHoaDon;
             }
             set
             {
-                m_mahoadon = value;
+                maHoaDon = value;
             }
         }
 
@@ -31,11 +31,11 @@ namespace DTO
         {
             get
             {
-                return m_dichvu;
+                return dichVu;
             }
             set
             {
-                m_dichvu = value;
+                dichVu = value;
             }
         }
 
@@ -43,11 +43,11 @@ namespace DTO
         {
             get
             {
-                return m_phong;
+                return phong;
             }
             set
             {
-                m_phong = value;
+                phong = value;
             }
         }
 
@@ -55,11 +55,11 @@ namespace DTO
         {
             get
             {
-                return m_ngayDV;
+                return ngayDichVu;
             }
             set
             {
-                m_ngayDV = value;
+                ngayDichVu = value;
             }
         }
 
@@ -67,11 +67,11 @@ namespace DTO
         {
             get
             {
-                return m_giaDV;
+                return giaDichVu;
             }
             set
             {
-                m_giaDV = value;
+                giaDichVu = value;
             }
         }
 
@@ -79,11 +79,11 @@ namespace DTO
         {
             get
             {
-                return m_soluongDV;
+                return soLuongDichVu;
             }
             set
             {
-                m_soluongDV = value;
+                soLuongDichVu = value;
             }
         }
     }

@@ -94,3 +94,6 @@ C:\Users\Luxury\Desktop\QLKS\Quanlykhachsan\obj\Debug\Quanlykhachsan.FormVatTu.r
 C:\Users\Luxury\Desktop\QLKS\Quanlykhachsan\obj\Debug\Quanlykhachsan.InHoaDon.resources
 C:\Users\Luxury\Desktop\QLKS\Quanlykhachsan\obj\Debug\Quanlykhachsan.Properties.Resources.resources
 C:\Users\Luxury\Desktop\QLKS\Quanlykhachsan\obj\Debug\Quanlykhachsan.csproj.GenerateResource.Cache
+C:\Users\Luxury\Desktop\New folder\QuanLyKhachSan\Quanlykhachsan\bin\Debug\Quanlykhachsan.exe.config
+C:\Users\Luxury\Desktop\New folder\QuanLyKhachSan\Quanlykhachsan\obj\Debug\Quanlykhachsan.exe
+C:\Users\Luxury\Desktop\New folder\QuanLyKhachSan\Quanlykhachsan\obj\Debug\Quanlykhachsan.pdb

@@ -225,6 +225,7 @@
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Name = "FormDichVu";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
             this.Text = "Dịch vụ";
             this.Load += new System.EventHandler(this.FormDichVu_Load);
             ((System.ComponentModel.ISupportInitialize)(this.loi)).EndInit();

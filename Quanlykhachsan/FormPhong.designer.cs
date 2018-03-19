@@ -393,6 +393,7 @@
             this.ClientSize = new System.Drawing.Size(753, 455);
             this.Controls.Add(this.tabctrPhong);
             this.Name = "FormPhong";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
             this.Text = "Quản lý phòng";
             this.Load += new System.EventHandler(this.FormPhong_Load);
             this.tabctrPhong.ResumeLayout(false);

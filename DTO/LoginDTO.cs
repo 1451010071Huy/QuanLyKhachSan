@@ -7,20 +7,20 @@ namespace DTO
 {
     public class LoginDTO
     {
-        private string m_username;
-        private string m_tenNV;
-        private string m_chucvu;
-        private string m_maNV;
+        private string username;
+        private string tenNV;
+        private string chucVu;
+        private string maNV;
 
         public string Username
         {
             get
             {
-                return m_username;
+                return username;
             }
             set
             {
-                m_username = value;
+                username = value;
             }
         }
 
@@ -28,11 +28,11 @@ namespace DTO
         {
             get
             {
-                return m_tenNV;
+                return tenNV;
             }
             set
             {
-                m_tenNV = value;
+                tenNV = value;
             }
         }
 
@@ -40,11 +40,11 @@ namespace DTO
         {
             get
             {
-                return m_maNV;
+                return maNV;
             }
             set
             {
-                m_maNV = value;
+                maNV = value;
             }
         }
 
@@ -52,11 +52,11 @@ namespace DTO
         {
             get
             {
-                return m_chucvu;
+                return chucVu;
             }
             set
             {
-                m_chucvu = value;
+                chucVu = value;
             }
         }
     }

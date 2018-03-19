@@ -53,7 +53,7 @@
             this.label5.AutoSize = true;
             this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label5.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.label5.Location = new System.Drawing.Point(259, 215);
+            this.label5.Location = new System.Drawing.Point(12, 200);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(179, 20);
             this.label5.TabIndex = 4;
@@ -103,7 +103,7 @@
             // 
             this.label7.AutoSize = true;
             this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label7.Location = new System.Drawing.Point(344, 251);
+            this.label7.Location = new System.Drawing.Point(71, 236);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(140, 20);
             this.label7.TabIndex = 5;
@@ -113,7 +113,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(508, 308);
+            this.ClientSize = new System.Drawing.Size(274, 308);
             this.Controls.Add(this.label7);
             this.Controls.Add(this.label6);
             this.Controls.Add(this.label4);
@@ -122,7 +122,8 @@
             this.Controls.Add(this.label5);
             this.Controls.Add(this.label1);
             this.Name = "FormAbout";
-            this.Text = "FormAbout";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
+            this.Text = "About";
             this.ResumeLayout(false);
             this.PerformLayout();
 

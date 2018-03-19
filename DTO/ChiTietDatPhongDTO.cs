@@ -7,18 +7,18 @@ namespace DTO
 {
     public class ChiTietDatPhongDTO
     {
-        private string m_maphieudat;
-        private string m_maphong;
+        private string maPhieuDat;
+        private string maPhong;
 
         public string Maphieudat
         {
             get
             {
-                return m_maphieudat;
+                return maPhieuDat;
             }
             set
             {
-                m_maphieudat = value;
+                maPhieuDat = value;
             }
         }
 
@@ -26,11 +26,11 @@ namespace DTO
         {
             get
             {
-                return m_maphong;
+                return maPhong;
             }
             set
             {
-                m_maphong = value;
+                maPhong = value;
             }
         }
     }

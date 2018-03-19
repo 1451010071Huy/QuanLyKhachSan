@@ -8,22 +8,22 @@ namespace DTO
     public class HoaDonDTO
     {
 
-        private string m_mahoadon;
-        private DateTime m_ngaythanhtoan;
-        private decimal m_tongtien;
-        private string m_maphieuthue;
-        private string m_makhachhang;
-        private string m_username;
+        private string maHoaDon;
+        private DateTime ngayThanhToan;
+        private decimal tongTien;
+        private string maPhieuThue;
+        private string maKhachHang;
+        private string username;
 
         public string Mahoadon
         {
             get
             {
-                return m_mahoadon;
+                return maHoaDon;
             }
             set
             {
-                m_mahoadon = value;
+                maHoaDon = value;
             }
         }
 
@@ -31,11 +31,11 @@ namespace DTO
         {
             get
             {
-                return m_ngaythanhtoan;
+                return ngayThanhToan;
             }
             set
             {
-                m_ngaythanhtoan = value;
+                ngayThanhToan = value;
             }
         }
 
@@ -43,11 +43,11 @@ namespace DTO
         {
             get
             {
-                return m_tongtien;
+                return tongTien;
             }
             set
             {
-                m_tongtien = value;
+                tongTien = value;
             }
         }
 
@@ -55,11 +55,11 @@ namespace DTO
         {
             get
             {
-                return m_maphieuthue;
+                return maPhieuThue;
             }
             set
             {
-                m_maphieuthue = value;
+                maPhieuThue = value;
             }
         }
 
@@ -67,11 +67,11 @@ namespace DTO
         {
             get
             {
-                return m_makhachhang;
+                return maKhachHang;
             }
             set
             {
-                m_makhachhang = value;
+                maKhachHang = value;
             }
         }
 
@@ -79,11 +79,11 @@ namespace DTO
         {
             get
             {
-                return m_username;
+                return username;
             }
             set
             {
-                m_username = value;
+                username = value;
             }
         }
     }

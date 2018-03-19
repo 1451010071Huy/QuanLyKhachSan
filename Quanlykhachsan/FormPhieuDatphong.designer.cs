@@ -617,6 +617,7 @@
             this.Controls.Add(this.label9);
             this.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Name = "FormPhieuDatphong";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
             this.Text = "Phiếu Đặt Phòng";
             this.Load += new System.EventHandler(this.FormPhieuDatPhong_Load);
             this.tabPage2.ResumeLayout(false);

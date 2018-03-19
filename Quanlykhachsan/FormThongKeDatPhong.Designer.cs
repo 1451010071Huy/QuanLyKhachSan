@@ -117,6 +117,7 @@
             this.Controls.Add(this.cmbNam);
             this.Controls.Add(this.cmbThang);
             this.Name = "FormThongKeDatPhong";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
             this.Text = "Thống kê đặt phòng";
             this.Load += new System.EventHandler(this.FormThongKeDatPhong_Load);
             this.ResumeLayout(false);

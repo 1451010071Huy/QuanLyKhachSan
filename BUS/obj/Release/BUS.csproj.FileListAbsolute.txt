@@ -7,3 +7,12 @@ E:\HUY\KiemThu\Source Code\[Sharecode.vn] Source code xay dung phan mem quan ly 
 E:\HUY\KiemThu\Source Code\[Sharecode.vn] Source code xay dung phan mem quan ly khach san full code + bao cao\Sourcode\BUS\obj\Release\BUS.csprojResolveAssemblyReference.cache
 E:\HUY\KiemThu\Source Code\[Sharecode.vn] Source code xay dung phan mem quan ly khach san full code + bao cao\Sourcode\BUS\obj\Release\BUS.dll
 E:\HUY\KiemThu\Source Code\[Sharecode.vn] Source code xay dung phan mem quan ly khach san full code + bao cao\Sourcode\BUS\obj\Release\BUS.pdb
+C:\Users\Luxury\Desktop\QLKS\BUS\bin\Release\BUS.dll
+C:\Users\Luxury\Desktop\QLKS\BUS\bin\Release\BUS.pdb
+C:\Users\Luxury\Desktop\QLKS\BUS\bin\Release\DAO.dll
+C:\Users\Luxury\Desktop\QLKS\BUS\bin\Release\DTO.dll
+C:\Users\Luxury\Desktop\QLKS\BUS\bin\Release\DAO.pdb
+C:\Users\Luxury\Desktop\QLKS\BUS\bin\Release\DTO.pdb
+C:\Users\Luxury\Desktop\QLKS\BUS\obj\Release\BUS.csprojResolveAssemblyReference.cache
+C:\Users\Luxury\Desktop\QLKS\BUS\obj\Release\BUS.dll
+C:\Users\Luxury\Desktop\QLKS\BUS\obj\Release\BUS.pdb

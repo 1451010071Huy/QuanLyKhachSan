@@ -28,14 +28,14 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.Windows.Forms.ListViewGroup listViewGroup2 = new System.Windows.Forms.ListViewGroup("Khách hàng", System.Windows.Forms.HorizontalAlignment.Left);
-            System.Windows.Forms.ListViewItem listViewItem8 = new System.Windows.Forms.ListViewItem("Mã khách hàng:");
-            System.Windows.Forms.ListViewItem listViewItem9 = new System.Windows.Forms.ListViewItem("Tên khách hàng:");
-            System.Windows.Forms.ListViewItem listViewItem10 = new System.Windows.Forms.ListViewItem("CMND/Passport");
-            System.Windows.Forms.ListViewItem listViewItem11 = new System.Windows.Forms.ListViewItem("Địa chỉ");
-            System.Windows.Forms.ListViewItem listViewItem12 = new System.Windows.Forms.ListViewItem("Cơ quan:");
-            System.Windows.Forms.ListViewItem listViewItem13 = new System.Windows.Forms.ListViewItem("Số điện thoại:");
-            System.Windows.Forms.ListViewItem listViewItem14 = new System.Windows.Forms.ListViewItem("Email:");
+            System.Windows.Forms.ListViewGroup listViewGroup1 = new System.Windows.Forms.ListViewGroup("Khách hàng", System.Windows.Forms.HorizontalAlignment.Left);
+            System.Windows.Forms.ListViewItem listViewItem1 = new System.Windows.Forms.ListViewItem("Mã khách hàng:");
+            System.Windows.Forms.ListViewItem listViewItem2 = new System.Windows.Forms.ListViewItem("Tên khách hàng:");
+            System.Windows.Forms.ListViewItem listViewItem3 = new System.Windows.Forms.ListViewItem("CMND/Passport");
+            System.Windows.Forms.ListViewItem listViewItem4 = new System.Windows.Forms.ListViewItem("Địa chỉ");
+            System.Windows.Forms.ListViewItem listViewItem5 = new System.Windows.Forms.ListViewItem("Cơ quan:");
+            System.Windows.Forms.ListViewItem listViewItem6 = new System.Windows.Forms.ListViewItem("Số điện thoại:");
+            System.Windows.Forms.ListViewItem listViewItem7 = new System.Windows.Forms.ListViewItem("Email:");
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.dtpNgay = new System.Windows.Forms.DateTimePicker();
@@ -111,26 +111,26 @@
             this.lsvKH.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.lsvKH.FullRowSelect = true;
             this.lsvKH.GridLines = true;
-            listViewGroup2.Header = "Khách hàng";
-            listViewGroup2.Name = "lsvgKH";
+            listViewGroup1.Header = "Khách hàng";
+            listViewGroup1.Name = "lsvgKH";
             this.lsvKH.Groups.AddRange(new System.Windows.Forms.ListViewGroup[] {
-            listViewGroup2});
+            listViewGroup1});
             this.lsvKH.HeaderStyle = System.Windows.Forms.ColumnHeaderStyle.None;
-            listViewItem8.Group = listViewGroup2;
-            listViewItem9.Group = listViewGroup2;
-            listViewItem10.Group = listViewGroup2;
-            listViewItem11.Group = listViewGroup2;
-            listViewItem12.Group = listViewGroup2;
-            listViewItem13.Group = listViewGroup2;
-            listViewItem14.Group = listViewGroup2;
+            listViewItem1.Group = listViewGroup1;
+            listViewItem2.Group = listViewGroup1;
+            listViewItem3.Group = listViewGroup1;
+            listViewItem4.Group = listViewGroup1;
+            listViewItem5.Group = listViewGroup1;
+            listViewItem6.Group = listViewGroup1;
+            listViewItem7.Group = listViewGroup1;
             this.lsvKH.Items.AddRange(new System.Windows.Forms.ListViewItem[] {
-            listViewItem8,
-            listViewItem9,
-            listViewItem10,
-            listViewItem11,
-            listViewItem12,
-            listViewItem13,
-            listViewItem14});
+            listViewItem1,
+            listViewItem2,
+            listViewItem3,
+            listViewItem4,
+            listViewItem5,
+            listViewItem6,
+            listViewItem7});
             this.lsvKH.Location = new System.Drawing.Point(349, 14);
             this.lsvKH.Name = "lsvKH";
             this.lsvKH.Scrollable = false;
@@ -432,6 +432,7 @@
             this.Controls.Add(this.label1);
             this.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Name = "FormHoaDon";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
             this.Text = "Hóa Đơn";
             this.Load += new System.EventHandler(this.FormHoaDon_Load);
             this.ResumeLayout(false);

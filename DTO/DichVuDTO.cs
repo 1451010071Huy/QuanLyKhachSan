@@ -7,20 +7,20 @@ namespace DTO
 {
     public class DichVuDTO
     {
-        private string m_madichvu;
-        private string m_tendichvu;
-        private decimal m_gia;
-        private string m_donvitinh;
+        private string maDichVu;
+        private string tenDichVu;
+        private decimal gia;
+        private string donViTinh;
 
         public string Madichvu
         {
             get
             {
-                return m_madichvu;
+                return maDichVu;
             }
             set
             {
-                m_madichvu = value;
+                maDichVu = value;
             }
         }
 
@@ -28,11 +28,11 @@ namespace DTO
         {
             get
             {
-                return m_tendichvu;
+                return tenDichVu;
             }
             set
             {
-                m_tendichvu = value;
+                tenDichVu = value;
             }
         }
 
@@ -40,11 +40,11 @@ namespace DTO
         {
             get
             {
-                return m_gia;
+                return gia;
             }
             set
             {
-                m_gia = value;
+                gia = value;
             }
         }
 
@@ -52,11 +52,11 @@ namespace DTO
         {
             get
             {
-                return m_donvitinh;
+                return donViTinh;
             }
             set
             {
-                m_donvitinh = value;
+                donViTinh = value;
             }
         }
     }

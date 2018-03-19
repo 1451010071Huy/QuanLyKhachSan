@@ -7,20 +7,20 @@ namespace DTO
 {
     public class KiemTraPhongDTO
     {
-        private string m_maphieudat;
-        private string m_maphong;
-        private DateTime m_ngayden;
-        private DateTime m_ngaydi;
-        private string m_tinhtrang;
+        private string maPhieuDat;
+        private string maPhong;
+        private DateTime ngayDen;
+        private DateTime ngayDi;
+        private string tinhTrang;
         public string Maphieudat
         {
             get
             {
-                return m_maphieudat;
+                return maPhieuDat;
             }
             set
             {
-                m_maphieudat = value;
+                maPhieuDat = value;
             }
         }
 
@@ -28,11 +28,11 @@ namespace DTO
         {
             get
             {
-                return m_maphong;
+                return maPhong;
             }
             set
             {
-                m_maphong = value;
+                maPhong = value;
             }
         }
 
@@ -40,11 +40,11 @@ namespace DTO
         {
             get
             {
-                return m_ngayden;
+                return ngayDen;
             }
             set
             {
-                m_ngayden = value;
+                ngayDen = value;
             }
         }
 
@@ -52,22 +52,22 @@ namespace DTO
         {
             get
             {
-                return m_ngaydi;
+                return ngayDi;
             }
             set
             {
-                m_ngaydi = value;
+                ngayDi = value;
             }
         }
         public string Tinhtrang
         {
             get
             {
-                return m_tinhtrang;
+                return tinhTrang;
             }
             set
             {
-                m_tinhtrang = value;
+                tinhTrang = value;
             }
         }
     }

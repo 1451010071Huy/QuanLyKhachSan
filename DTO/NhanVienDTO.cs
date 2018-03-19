@@ -7,23 +7,23 @@ namespace DTO
 {
     public class NhanVienDTO
     {
-        private string m_manhanvien;
-        private string m_tennhanvien;
-        private DateTime m_ngaysinh;
-        private Boolean m_phai;
-        private string m_diachi;
-        private string m_phone;
-        private string m_chucvu;
+        private string maNhanVien;
+        private string tenNhanVien;
+        private DateTime ngaySinh;
+        private Boolean gioiTinh;
+        private string diaChi;
+        private string sdt;
+        private string chucVu;
 
         public string Manhanvien
         {
             get
             {
-                return m_manhanvien;
+                return maNhanVien;
             }
             set
             {
-                m_manhanvien = value;
+                maNhanVien = value;
             }
         }
 
@@ -31,11 +31,11 @@ namespace DTO
         {
             get
             {
-                return m_tennhanvien;
+                return tenNhanVien;
             }
             set
             {
-                m_tennhanvien = value;
+                tenNhanVien = value;
             }
         }
 
@@ -43,11 +43,11 @@ namespace DTO
         {
             get
             {
-                return m_ngaysinh;
+                return ngaySinh;
             }
             set
             {
-                m_ngaysinh = value;
+                ngaySinh = value;
             }
         }
 
@@ -55,11 +55,11 @@ namespace DTO
         {
             get
             {
-                return m_phai;
+                return gioiTinh;
             }
             set
             {
-                m_phai = value;
+                gioiTinh = value;
             }
         }
 
@@ -67,11 +67,11 @@ namespace DTO
         {
             get
             {
-                return m_diachi;
+                return diaChi;
             }
             set
             {
-                m_diachi = value;
+                diaChi = value;
             }
         }
 
@@ -79,11 +79,11 @@ namespace DTO
         {
             get
             {
-                return m_phone;
+                return sdt;
             }
             set
             {
-                m_phone = value;
+                sdt = value;
             }
         }
 
@@ -91,11 +91,11 @@ namespace DTO
         {
             get
             {
-                return m_chucvu;
+                return chucVu;
             }
             set
             {
-                m_chucvu = value;
+                chucVu = value;
             }
         }
     }

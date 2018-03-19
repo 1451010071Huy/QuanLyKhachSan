@@ -8,24 +8,24 @@ namespace DTO
     public class PhieuDatPhongDTO
     {
 
-        private string m_maphieudat;
-        private string m_makhachhang;
-        private DateTime m_ngayden;
-        private DateTime m_ngaydi;
-        private decimal m_sotiendatcoc;
-        private string m_username;
-        private string m_tinhtrang;
-        private int m_songuoi;
+        private string maPhieuDat;
+        private string maKhachHang;
+        private DateTime ngayDen;
+        private DateTime ngayDi;
+        private decimal soTienDatCoc;
+        private string username;
+        private string tinhTrang;
+        private int soNguoi;
 
         public string Maphieudat
         {
             get
             {
-                return m_maphieudat;
+                return maPhieuDat;
             }
             set
             {
-                m_maphieudat = value;
+                maPhieuDat = value;
             }
         }
 
@@ -33,11 +33,11 @@ namespace DTO
         {
             get
             {
-                return m_makhachhang;
+                return maKhachHang;
             }
             set
             {
-                m_makhachhang = value;
+                maKhachHang = value;
             }
         }
 
@@ -45,11 +45,11 @@ namespace DTO
         {
             get
             {
-                return m_ngayden;
+                return ngayDen;
             }
             set
             {
-                m_ngayden = value;
+                ngayDen = value;
             }
         }
 
@@ -57,11 +57,11 @@ namespace DTO
         {
             get
             {
-                return m_ngaydi;
+                return ngayDi;
             }
             set
             {
-                m_ngaydi = value;
+                ngayDi = value;
             }
         }
 
@@ -69,11 +69,11 @@ namespace DTO
         {
             get
             {
-                return m_sotiendatcoc;
+                return soTienDatCoc;
             }
             set
             {
-                m_sotiendatcoc = value;
+                soTienDatCoc = value;
             }
         }
 
@@ -81,11 +81,11 @@ namespace DTO
         {
             get
             {
-                return m_username;
+                return username;
             }
             set
             {
-                m_username = value;
+                username = value;
             }
         }
 
@@ -93,11 +93,11 @@ namespace DTO
         {
             get
             {
-                return m_tinhtrang;
+                return tinhTrang;
             }
             set
             {
-                m_tinhtrang = value;
+                tinhTrang = value;
             }
         }
 
@@ -105,11 +105,11 @@ namespace DTO
         {
             get
             {
-                return m_songuoi;
+                return soNguoi;
             }
             set
             {
-                m_songuoi = value;
+                soNguoi = value;
             }
         }
     }

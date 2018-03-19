@@ -7,19 +7,19 @@ namespace DTO
 {
     public class PhieuThuePhongDTO
     {
-        private string m_maphieuthue;
-        private string m_maphieudat;
-        private string m_username;
+        private string maPhieuThue;
+        private string maPhieuDat;
+        private string username;
 
         public string Maphieuthue
         {
             get
             {
-                return m_maphieuthue;
+                return maPhieuThue;
             }
             set
             {
-                m_maphieuthue = value;
+                maPhieuThue = value;
             }
         }
 
@@ -27,11 +27,11 @@ namespace DTO
         {
             get
             {
-                return m_maphieudat;
+                return maPhieuDat;
             }
             set
             {
-                m_maphieudat = value;
+                maPhieuDat = value;
             }
         }
 
@@ -39,11 +39,11 @@ namespace DTO
         {
             get
             {
-                return m_username;
+                return username;
             }
             set
             {
-                m_username = value;
+                username = value;
             }
         }
     }

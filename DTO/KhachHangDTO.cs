@@ -8,24 +8,24 @@ namespace DTO
     public class KhachHangDTO
     {
 
-        private string m_makhachhang;
-        private string m_tenkhachhang;
-        private Boolean m_gioitinh;
-        private string m_cmnd_passport;
-        private string m_diachi;
-        private string m_coquan;
-        private string m_sodienthoai;
-        private string m_email;
+        private string maKhachHang;
+        private string tenKhachHang;
+        private Boolean gioiTinh;
+        private string cmnd;
+        private string diaChi;
+        private string coQuan;
+        private string sdt;
+        private string email;
 
         public string Makhachhang
         {
             get
             {
-                return m_makhachhang;
+                return maKhachHang;
             }
             set
             {
-                m_makhachhang = value;
+                maKhachHang = value;
             }
         }
 
@@ -33,11 +33,11 @@ namespace DTO
         {
             get
             {
-                return m_tenkhachhang;
+                return tenKhachHang;
             }
             set
             {
-                m_tenkhachhang = value;
+                tenKhachHang = value;
             }
         }
 
@@ -45,11 +45,11 @@ namespace DTO
         {
             get
             {
-                return m_gioitinh;
+                return gioiTinh;
             }
             set
             {
-                m_gioitinh = value;
+                gioiTinh = value;
             }
         }
 
@@ -57,11 +57,11 @@ namespace DTO
         {
             get
             {
-                return m_cmnd_passport;
+                return cmnd;
             }
             set
             {
-                m_cmnd_passport = value;
+                cmnd = value;
             }
         }
 
@@ -69,11 +69,11 @@ namespace DTO
         {
             get
             {
-                return m_diachi;
+                return diaChi;
             }
             set
             {
-                m_diachi = value;
+                diaChi = value;
             }
         }
 
@@ -81,11 +81,11 @@ namespace DTO
         {
             get
             {
-                return m_coquan;
+                return coQuan;
             }
             set
             {
-                m_coquan = value;
+                coQuan = value;
             }
         }
 
@@ -93,11 +93,11 @@ namespace DTO
         {
             get
             {
-                return m_sodienthoai;
+                return sdt;
             }
             set
             {
-                m_sodienthoai = value;
+                sdt = value;
             }
         }
 
@@ -105,11 +105,11 @@ namespace DTO
         {
             get
             {
-                return m_email;
+                return email;
             }
             set
             {
-                m_email = value;
+                email = value;
             }
         }
     }

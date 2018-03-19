@@ -7,25 +7,25 @@ namespace DTO
 {
     public class InHoaDonDichVuDTO
     {
-        protected string m_mahoadon;
-        protected string m_maphieuthue;
-        protected string m_tendichvu;
-        protected Decimal m_gia;
-        protected string m_donvitinh;
-        protected int m_soluong;
-        private string m_maphong;
-        private DateTime m_ngay;
+        protected string maHoaDon;
+        protected string maPhieuThue;
+        protected string tenDichVu;
+        protected Decimal gia;
+        protected string donViTinh;
+        protected int soLuong;
+        private string maPhong;
+        private DateTime ngay;
 
         
         public string Mahoadon
         {
             get
             {
-                return m_mahoadon;
+                return maHoaDon;
             }
             set
             {
-                m_mahoadon = value;
+                maHoaDon = value;
             }
         }
 
@@ -33,11 +33,11 @@ namespace DTO
         {
             get
             {
-                return m_maphieuthue;
+                return maPhieuThue;
             }
             set
             {
-                m_maphieuthue = value;
+                maPhieuThue = value;
             }
         }
 
@@ -45,11 +45,11 @@ namespace DTO
         {
             get
             {
-                return m_tendichvu;
+                return tenDichVu;
             }
             set
             {
-                m_tendichvu = value;
+                tenDichVu = value;
             }
         }
 
@@ -57,11 +57,11 @@ namespace DTO
         {
             get
             {
-                return m_gia;
+                return gia;
             }
             set
             {
-                m_gia = value;
+                gia = value;
             }
         }
 
@@ -69,20 +69,20 @@ namespace DTO
         {
             get
             {
-                return m_donvitinh;
+                return donViTinh;
             }
             set
             {
-                m_donvitinh = value;
+                donViTinh = value;
             }
         }
 
         public int Soluong
         {
             get{
-                return m_soluong;
+                return soLuong;
             }set{
-                m_soluong=value;
+                soLuong=value;
             }
         }
 
@@ -90,11 +90,11 @@ namespace DTO
         {
             get
             {
-                return m_maphong;
+                return maPhong;
             }
             set
             {
-                m_maphong = value;
+                maPhong = value;
             }
         }
 
@@ -102,11 +102,11 @@ namespace DTO
         {
             get
             {
-                return m_ngay;
+                return ngay;
             }
             set
             {
-                m_ngay = value;
+                ngay = value;
             }
         }
     }

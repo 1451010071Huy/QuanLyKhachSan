@@ -114,35 +114,36 @@
             this.DoiMatKhauToolStripMenuItem.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.DoiMatKhauToolStripMenuItem.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.DoiMatKhauToolStripMenuItem.Name = "DoiMatKhauToolStripMenuItem";
-            this.DoiMatKhauToolStripMenuItem.Size = new System.Drawing.Size(145, 22);
+            this.DoiMatKhauToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
             this.DoiMatKhauToolStripMenuItem.Text = "Đổi mật khẩu";
-            this.DoiMatKhauToolStripMenuItem.Click += new System.EventHandler(this.đổiMậtKhẩuToolStripMenuItem_Click);
+            this.DoiMatKhauToolStripMenuItem.Click += new System.EventHandler(this.doiMatKhauToolStripMenuItem_Click);
             // 
             // toolStripSeparator1
             // 
             this.toolStripSeparator1.Name = "toolStripSeparator1";
-            this.toolStripSeparator1.Size = new System.Drawing.Size(142, 6);
+            this.toolStripSeparator1.Size = new System.Drawing.Size(149, 6);
             // 
             // DangNhapToolStripMenuItem
             // 
+            this.DangNhapToolStripMenuItem.Enabled = false;
             this.DangNhapToolStripMenuItem.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.DangNhapToolStripMenuItem.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.DangNhapToolStripMenuItem.Name = "DangNhapToolStripMenuItem";
-            this.DangNhapToolStripMenuItem.Size = new System.Drawing.Size(145, 22);
+            this.DangNhapToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
             this.DangNhapToolStripMenuItem.Text = "Đăng nhập";
             this.DangNhapToolStripMenuItem.Click += new System.EventHandler(this.DangNhapToolStripMenuItem_Click_1);
             // 
             // toolStripSeparator2
             // 
             this.toolStripSeparator2.Name = "toolStripSeparator2";
-            this.toolStripSeparator2.Size = new System.Drawing.Size(142, 6);
+            this.toolStripSeparator2.Size = new System.Drawing.Size(149, 6);
             // 
             // DangXuatToolStripMenuItem
             // 
             this.DangXuatToolStripMenuItem.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.DangXuatToolStripMenuItem.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.DangXuatToolStripMenuItem.Name = "DangXuatToolStripMenuItem";
-            this.DangXuatToolStripMenuItem.Size = new System.Drawing.Size(145, 22);
+            this.DangXuatToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
             this.DangXuatToolStripMenuItem.Text = "Đăng xuất";
             this.DangXuatToolStripMenuItem.Click += new System.EventHandler(this.DangXuatToolStripMenuItem_Click);
             // 
@@ -151,7 +152,7 @@
             this.toolStripMenuItem4.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.toolStripMenuItem4.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.toolStripMenuItem4.Name = "toolStripMenuItem4";
-            this.toolStripMenuItem4.Size = new System.Drawing.Size(145, 22);
+            this.toolStripMenuItem4.Size = new System.Drawing.Size(152, 22);
             this.toolStripMenuItem4.Text = "Thoát";
             this.toolStripMenuItem4.Click += new System.EventHandler(this.thoátToolStripMenuItem_Click);
             // 
@@ -166,7 +167,7 @@
             this.QuanLyToolStripMenu.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.QuanLyToolStripMenu.ForeColor = System.Drawing.Color.Maroon;
             this.QuanLyToolStripMenu.Name = "QuanLyToolStripMenu";
-            this.QuanLyToolStripMenu.Size = new System.Drawing.Size(70, 20);
+            this.QuanLyToolStripMenu.Size = new System.Drawing.Size(69, 20);
             this.QuanLyToolStripMenu.Text = "QUẢN LÝ";
             // 
             // phòngToolStripMenuItem
@@ -338,12 +339,11 @@
             this.labUser.Cursor = System.Windows.Forms.Cursors.Hand;
             this.labUser.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.labUser.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.labUser.Location = new System.Drawing.Point(865, 6);
+            this.labUser.Location = new System.Drawing.Point(804, 6);
             this.labUser.Name = "labUser";
-            this.labUser.Size = new System.Drawing.Size(35, 15);
+            this.labUser.Size = new System.Drawing.Size(127, 15);
             this.labUser.TabIndex = 1;
-            this.labUser.Text = "User";
-            this.labUser.Click += new System.EventHandler(this.labUser_Click);
+            this.labUser.Text = "Vui Lòng Đăng Nhập";
             // 
             // imglstPhong
             // 
