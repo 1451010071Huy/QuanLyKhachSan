@@ -88,3 +88,12 @@ C:\Users\Luxury\Desktop\Viet TestCase\QuanLyKhachSan\BUS\bin\Debug\DTO.pdb
 C:\Users\Luxury\Desktop\Viet TestCase\QuanLyKhachSan\BUS\obj\Debug\BUS.csprojResolveAssemblyReference.cache
 C:\Users\Luxury\Desktop\Viet TestCase\QuanLyKhachSan\BUS\obj\Debug\BUS.dll
 C:\Users\Luxury\Desktop\Viet TestCase\QuanLyKhachSan\BUS\obj\Debug\BUS.pdb
+C:\Users\Luxury\Desktop\New folder\QuanLyKhachSan\BUS\bin\Debug\BUS.dll
+C:\Users\Luxury\Desktop\New folder\QuanLyKhachSan\BUS\bin\Debug\BUS.pdb
+C:\Users\Luxury\Desktop\New folder\QuanLyKhachSan\BUS\bin\Debug\DAO.dll
+C:\Users\Luxury\Desktop\New folder\QuanLyKhachSan\BUS\bin\Debug\DTO.dll
+C:\Users\Luxury\Desktop\New folder\QuanLyKhachSan\BUS\bin\Debug\DAO.pdb
+C:\Users\Luxury\Desktop\New folder\QuanLyKhachSan\BUS\bin\Debug\DTO.pdb
+C:\Users\Luxury\Desktop\New folder\QuanLyKhachSan\BUS\obj\Debug\BUS.csprojResolveAssemblyReference.cache
+C:\Users\Luxury\Desktop\New folder\QuanLyKhachSan\BUS\obj\Debug\BUS.dll
+C:\Users\Luxury\Desktop\New folder\QuanLyKhachSan\BUS\obj\Debug\BUS.pdb

@@ -93,7 +93,7 @@
             // 
             // btnDangNhap
             // 
-            this.btnDangNhap.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.btnDangNhap.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnDangNhap.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnDangNhap.ForeColor = System.Drawing.Color.White;
             this.btnDangNhap.Location = new System.Drawing.Point(274, 137);
@@ -106,7 +106,7 @@
             // 
             // btnThoat
             // 
-            this.btnThoat.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.btnThoat.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnThoat.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnThoat.ForeColor = System.Drawing.Color.White;
             this.btnThoat.Location = new System.Drawing.Point(380, 137);
