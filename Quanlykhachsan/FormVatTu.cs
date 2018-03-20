@@ -307,11 +307,6 @@ namespace Quanlykhachsan
             return true;
         }
 
-        private void tabPage1_Click(object sender, EventArgs e)
-        {
-
-        }
-
         private void tabControl1_MouseClick(object sender, MouseEventArgs e)
         {
             show_mvattu();

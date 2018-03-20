@@ -53,9 +53,9 @@ namespace BUS
             {
                 return htDAO.getListHeThongByID(id);
             }
-            catch
+            catch (ArgumentException ex)
             {
-                throw new Exception("Error!");
+                throw ex;
             }
         }
 

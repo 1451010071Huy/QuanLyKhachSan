@@ -207,11 +207,6 @@ namespace Quanlykhachsan
             }
         }
 
-        private void lsvPhong_SelectedIndexChanged(object sender, EventArgs e)
-        {
-
-        }
-
         private void btnThemLoaiPhong_Click(object sender, EventArgs e)
         {
 

@@ -116,6 +116,7 @@ namespace Quanlykhachsan
 
                 khBUS = new KhachHangBUS();
                 khDTO = new KhachHangDTO();
+
                 khDTO.Makhachhang = txtMKH.Text;
                 khDTO.Tenkhachhang = txtTenKH.Text;
                 khDTO.Gioitinh = rdNam.Checked;
@@ -124,6 +125,7 @@ namespace Quanlykhachsan
                 khDTO.Coquan = txtCoquan.Text;
                 khDTO.Sodienthoai = txtSoDT.Text;
                 khDTO.Email = txtEmail.Text;
+
                 if (khBUS.insertKhachHang(khDTO) == 1)
                 {
                     tim(khDTO.Makhachhang);
@@ -258,6 +260,13 @@ namespace Quanlykhachsan
         {
             if (makh() && tenkh() && cmnd())
             {
+                return true;
+            }
+            return false;
+        }
+
+        public bool kiemtraFormKH(string makh, string tenkh, string cmnd) {
+            if (makh == "" || tenkh == "" || cmnd == "") {
                 return true;
             }
             return false;

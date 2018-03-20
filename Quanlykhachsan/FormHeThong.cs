@@ -30,7 +30,7 @@ namespace Quanlykhachsan
             ShowNguoiDung();
         }
 
-        
+
 
         private void ShowNguoiDung()
         {
@@ -38,7 +38,7 @@ namespace Quanlykhachsan
             nvBUS = new NhanVienBUS();
             htBUS = new HeThongBUS();
             IList<NhanVienDTO> listNVDTO = nvBUS.getListNhanvienAll();
-            foreach(NhanVienDTO nv in listNVDTO)
+            foreach (NhanVienDTO nv in listNVDTO)
             {
                 if (nv.Chucvu != frmMain.m_chucvu)
                 {
@@ -62,7 +62,7 @@ namespace Quanlykhachsan
             }
         }
 
-      
+
         private void TimNguoiDung(string tim)
         {
             lsvnguoidung.Items.Clear();
@@ -72,26 +72,26 @@ namespace Quanlykhachsan
             {
                 list = nvBUS.getListLikeNhanVienByName(tim);
             }
-            if(list!=null)
-            foreach (NhanVienDTO nv in list)
-            {
-                if (nv.Chucvu != frmMain.m_chucvu)
+            if (list != null)
+                foreach (NhanVienDTO nv in list)
                 {
-                    int i = lsvnguoidung.Items.Count;
-                    lsvnguoidung.Items.Add(nv.Manhanvien);
-                    lsvnguoidung.Items[i].SubItems.Add(nv.Tennhanvien);
-                    htDTO = new HeThongDTO();
-                    htDTO = htBUS.getListHeThongByID(nv.Manhanvien);
-                    lsvnguoidung.Items[i].SubItems.Add(htDTO.Username);
-                    lsvnguoidung.Items[i].SubItems.Add(htDTO.Password);
-                    lsvnguoidung.Items[i].SubItems.Add(nv.Chucvu);
+                    if (nv.Chucvu != frmMain.m_chucvu)
+                    {
+                        int i = lsvnguoidung.Items.Count;
+                        lsvnguoidung.Items.Add(nv.Manhanvien);
+                        lsvnguoidung.Items[i].SubItems.Add(nv.Tennhanvien);
+                        htDTO = new HeThongDTO();
+                        htDTO = htBUS.getListHeThongByID(nv.Manhanvien);
+                        lsvnguoidung.Items[i].SubItems.Add(htDTO.Username);
+                        lsvnguoidung.Items[i].SubItems.Add(htDTO.Password);
+                        lsvnguoidung.Items[i].SubItems.Add(nv.Chucvu);
+                    }
                 }
-            }
         }
 
         private void btnThem_Click(object sender, EventArgs e)
         {
-            if (kiemtra())
+            if (kiemtra(txtuser.Text, txtuser.Text))
             {
                 htBUS = new HeThongBUS();
                 htDTO = new HeThongDTO();
@@ -107,6 +107,11 @@ namespace Quanlykhachsan
                     MessageBox.Show("Tên User đã tồn tại!", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Warning);
 
                 }
+            }
+            else
+            {
+                MessageBox.Show("Tên User or Password không được rỗng!");
+                txtuser.Focus();
             }
         }
         private void btnXoa_Click(object sender, EventArgs e)
@@ -144,7 +149,7 @@ namespace Quanlykhachsan
             if (lsvnguoidung.SelectedItems[0].SubItems[2].Text == "") btnThem_Click(sender, e);
             else
             {
-                if (kiemtrauser())
+                if (kiemtra(txtuser.Text, txtPass.Text))
                 {
                     htDTO = new HeThongDTO();
                     htBUS = new HeThongBUS();
@@ -170,34 +175,21 @@ namespace Quanlykhachsan
                         txtuser.Focus();
                     }
                 }
+                else
+                {
+                    MessageBox.Show("Tên User or Password không được rỗng!");
+                    txtuser.Focus();
+                }
             }
         }
 
-        private bool kiemtrauser()
+        public bool kiemtra(string user, string pass)
         {
-            if (txtuser.Text == "")
+            if (user == "" || pass == "")
             {
-                MessageBox.Show("Tên User không được rỗng!");
-                txtuser.Focus();
                 return false;
             }
             return true;
-        }
-
-        private bool kiemtrapass()
-        {
-            if (txtPass.Text == "")
-            {
-                MessageBox.Show("Password không được rỗng!");
-                txtPass.Focus();
-                return false;
-            }
-            return true;
-        }
-
-        private bool kiemtra()
-        {
-            return (kiemtrauser() && kiemtrapass());
         }
 
         private void txtTim_KeyUp(object sender, KeyEventArgs e)

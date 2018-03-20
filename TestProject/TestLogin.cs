@@ -5,23 +5,28 @@ using System.Linq;
 using System.Windows.Forms;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using Quanlykhachsan;
+
 using BUS;
 using DTO;
+using DAO;
+
 namespace TestProject
 {
     /// <summary>
     /// Summary description for UnitTest1
     /// </summary>
     [TestClass]
-    public class UnitTest1
+    public class TestLogin
     {
-        public UnitTest1()
+        public TestLogin()
         {
             //
             // TODO: Add constructor logic here
             //
         }
-
+        LoginBUS lgBUS = new LoginBUS();
+        FormMain frmMail = new FormMain();
+        FormMain form = new FormMain();
         private TestContext testContextInstance;
 
         /// <summary>
@@ -65,7 +70,7 @@ namespace TestProject
         [TestMethod]
         public void TestMaHoaFail()
         {
-            FormMain form = new FormMain();
+            
             string expected = "manhhuy";
             string actual = form.MaHoa("manhhuy");
 
@@ -75,7 +80,6 @@ namespace TestProject
         [TestMethod]
         public void TestMaHoaSuccess()
         {
-            FormMain form = new FormMain();
             string expected = "CYoaTmZOZox5+iAVgDc3wQ==";
             string actual = form.MaHoa("manhhuy");
             Assert.AreEqual(expected, actual);
@@ -84,21 +88,22 @@ namespace TestProject
         [TestMethod]
         public void TestLoginSuccess()
         {
-            LoginBUS lgBUS = new LoginBUS();
-            FormMain frmMail = new FormMain();
             IList<LoginDTO> iList = lgBUS.Login("admin", frmMail.MaHoa("admin"));
-
             Assert.AreEqual(1, iList.Count());
         }
 
         [TestMethod]
         public void TestLoginFail()
         {
-            LoginBUS lgBUS = new LoginBUS();
-            FormMain frmMail = new FormMain();
             IList<LoginDTO> iList = lgBUS.Login("admin", frmMail.MaHoa("mksai"));
-
             Assert.AreEqual(1, iList.Count());
         }
+
+        [TestMethod]
+        public void TestLoginNull() {
+            IList<LoginDTO> iList = lgBUS.Login("", frmMail.MaHoa(""));
+            Assert.AreEqual(1, iList.Count());
+        }
+
     }
 }

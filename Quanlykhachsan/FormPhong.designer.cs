@@ -263,7 +263,6 @@
             this.lsvPhong.TabIndex = 17;
             this.lsvPhong.UseCompatibleStateImageBehavior = false;
             this.lsvPhong.View = System.Windows.Forms.View.Details;
-            this.lsvPhong.SelectedIndexChanged += new System.EventHandler(this.lsvPhong_SelectedIndexChanged);
             this.lsvPhong.Click += new System.EventHandler(this.lsvPhong_Click);
             // 
             // columnHeader5

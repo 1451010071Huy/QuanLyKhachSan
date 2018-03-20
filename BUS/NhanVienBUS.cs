@@ -78,9 +78,9 @@ namespace BUS
             {
                 return nvDAO.getLikeNhanVienByID(ID);
             }
-            catch
+            catch (Exception ex)
             {
-                throw new Exception("Error!");
+                throw ex;
             }
         }
 
