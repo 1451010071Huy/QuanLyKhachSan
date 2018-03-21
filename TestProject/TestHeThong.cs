@@ -16,6 +16,8 @@ namespace TestProject
     {
         FormHeThong frmHeThong;
         NhanVienBUS nvBUS;
+
+        [TestInitialize]
         public void setUp()
         {
             frmHeThong = new FormHeThong();
@@ -35,6 +37,19 @@ namespace TestProject
             Assert.IsTrue(expected);
         }
 
+        [TestMethod]
+        public void TestTenTaiKhoanLonHon16KT()
+        {
+            bool expected = frmHeThong.kiemtra("nguyenvanthanhnam", "daihocmo");
+            Assert.IsFalse(expected);
+        }
+
+        [TestMethod]
+        public void TestTenTaiKhoanPassHon16KT()
+        {
+            bool expected = frmHeThong.kiemtra("daihocmo", "nguyenvanthanhnam");
+            Assert.IsFalse(expected);
+        }
 
         [TestMethod]
         [ExpectedException(typeof(Exception))]
