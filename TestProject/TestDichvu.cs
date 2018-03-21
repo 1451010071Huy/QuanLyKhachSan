@@ -15,54 +15,28 @@ namespace TestProject
     [TestClass]
     public class TestDichvu
     {
-        DichVuBUS dvBus = new DichVuBUS();
-        DichVuDAO dvDAO = new DichVuDAO();
-        DichVuDTO dvDTO = new DichVuDTO();
+        DichVuBUS dvBus;
+        DichVuDAO dvDAO;
+        DichVuDTO dvDTO;
         public TestDichvu()
         {
-            
-        }
-        private TestContext testContextInstance;
-        public TestContext TestContext
-        {
-            get
-            {
-                return testContextInstance;
-            }
-            set
-            {
-                testContextInstance = value;
-            }
+
         }
 
-        #region Additional test attributes
-        //
-        // You can use the following additional attributes as you write your tests:
-        //
-        // Use ClassInitialize to run code before running the first test in the class
-        // [ClassInitialize()]
-        // public static void MyClassInitialize(TestContext testContext) { }
-        //
-        // Use ClassCleanup to run code after all tests in a class have run
-        // [ClassCleanup()]
-        // public static void MyClassCleanup() { }
-        //
-        // Use TestInitialize to run code before running each test 
-        // [TestInitialize()]
-        // public void MyTestInitialize() { }
-        //
-        // Use TestCleanup to run code after each test has run
-        // [TestCleanup()]
-        // public void MyTestCleanup() { }
-        //
-        #endregion
+        [TestInitialize]
+        public void setUp()
+        {
+            dvBus = new DichVuBUS();
+            dvDAO = new DichVuDAO();
+            dvDTO = new DichVuDTO();
+        }
 
         [TestMethod]
         public void TestThemDVFail()
         {
             dvDTO = null;
             int expected = 0;
-            int actual=dvBus.insertDichVu(dvDTO);
+            int actual = dvBus.insertDichVu(dvDTO);
             Assert.AreEqual(expected, actual);
         }
         [TestMethod]

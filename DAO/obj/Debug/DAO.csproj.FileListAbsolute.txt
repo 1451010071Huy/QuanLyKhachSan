@@ -94,3 +94,11 @@ C:\Users\Luxury\Desktop\New folder (3)\QuanLyKhachSan\DAO\bin\Debug\DTO.pdb
 C:\Users\Luxury\Desktop\New folder (3)\QuanLyKhachSan\DAO\obj\Debug\DAO.csprojResolveAssemblyReference.cache
 C:\Users\Luxury\Desktop\New folder (3)\QuanLyKhachSan\DAO\obj\Debug\DAO.dll
 C:\Users\Luxury\Desktop\New folder (3)\QuanLyKhachSan\DAO\obj\Debug\DAO.pdb
+C:\Users\Luxury\Desktop\New folder (5)\QuanLyKhachSan\DAO\bin\Debug\DAO.dll.config
+C:\Users\Luxury\Desktop\New folder (5)\QuanLyKhachSan\DAO\bin\Debug\DAO.dll
+C:\Users\Luxury\Desktop\New folder (5)\QuanLyKhachSan\DAO\bin\Debug\DAO.pdb
+C:\Users\Luxury\Desktop\New folder (5)\QuanLyKhachSan\DAO\bin\Debug\DTO.dll
+C:\Users\Luxury\Desktop\New folder (5)\QuanLyKhachSan\DAO\bin\Debug\DTO.pdb
+C:\Users\Luxury\Desktop\New folder (5)\QuanLyKhachSan\DAO\obj\Debug\DAO.csprojResolveAssemblyReference.cache
+C:\Users\Luxury\Desktop\New folder (5)\QuanLyKhachSan\DAO\obj\Debug\DAO.dll
+C:\Users\Luxury\Desktop\New folder (5)\QuanLyKhachSan\DAO\obj\Debug\DAO.pdb

@@ -53,3 +53,8 @@ C:\Users\Luxury\Desktop\New folder (3)\QuanLyKhachSan\DTO\bin\Debug\DTO.pdb
 C:\Users\Luxury\Desktop\New folder (3)\QuanLyKhachSan\DTO\obj\Debug\DTO.csprojResolveAssemblyReference.cache
 C:\Users\Luxury\Desktop\New folder (3)\QuanLyKhachSan\DTO\obj\Debug\DTO.dll
 C:\Users\Luxury\Desktop\New folder (3)\QuanLyKhachSan\DTO\obj\Debug\DTO.pdb
+C:\Users\Luxury\Desktop\New folder (5)\QuanLyKhachSan\DTO\bin\Debug\DTO.dll
+C:\Users\Luxury\Desktop\New folder (5)\QuanLyKhachSan\DTO\bin\Debug\DTO.pdb
+C:\Users\Luxury\Desktop\New folder (5)\QuanLyKhachSan\DTO\obj\Debug\DTO.csprojResolveAssemblyReference.cache
+C:\Users\Luxury\Desktop\New folder (5)\QuanLyKhachSan\DTO\obj\Debug\DTO.dll
+C:\Users\Luxury\Desktop\New folder (5)\QuanLyKhachSan\DTO\obj\Debug\DTO.pdb

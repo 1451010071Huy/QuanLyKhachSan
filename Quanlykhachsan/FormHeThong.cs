@@ -185,7 +185,7 @@ namespace Quanlykhachsan
 
         public bool kiemtra(string user, string pass)
         {
-            if (user == "" || pass == "")
+            if (user == "" || pass == "" || user.Length > 16 || pass.Length > 16)
             {
                 return false;
             }

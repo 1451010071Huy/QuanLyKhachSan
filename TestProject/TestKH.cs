@@ -10,9 +10,6 @@ using BUS;
 using Quanlykhachsan;
 namespace TestProject
 {
-    /// <summary>
-    /// Summary description for TestKH
-    /// </summary>
     [TestClass]
     public class TestKH
     {
@@ -22,9 +19,6 @@ namespace TestProject
 
         public TestKH()
         {
-            //
-            // TODO: Add constructor logic here
-            //
         }
 
         [TestInitialize]
@@ -107,7 +101,8 @@ namespace TestProject
         }
 
         [TestMethod]
-        public void TestKHNull() {
+        public void TestKHNull()
+        {
             Boolean check = frmKH.kiemtraFormKH("", "", "");
             Assert.IsTrue(check);
         }

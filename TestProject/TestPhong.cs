@@ -23,10 +23,8 @@ namespace TestProject
         LoaiPhongDTO loaiPhongDTO;
         public TestPhong()
         {
-            //
-            // TODO: Add constructor logic here
-            //
         }
+
         [TestInitialize]
         public void setUp()
         {

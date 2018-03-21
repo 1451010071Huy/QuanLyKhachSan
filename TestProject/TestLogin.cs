@@ -18,33 +18,19 @@ namespace TestProject
     [TestClass]
     public class TestLogin
     {
+        LoginBUS lgBUS;
+        FormMain frmMail;
+        FormMain form;
         public TestLogin()
         {
-            //
-            // TODO: Add constructor logic here
-            //
         }
-        LoginBUS lgBUS = new LoginBUS();
-        FormMain frmMail = new FormMain();
-        FormMain form = new FormMain();
-        private TestContext testContextInstance;
-
-        /// <summary>
-        ///Gets or sets the test context which provides
-        ///information about and functionality for the current test run.
-        ///</summary>
-        public TestContext TestContext
+        [TestInitialize]
+        public void setUp()
         {
-            get
-            {
-                return testContextInstance;
-            }
-            set
-            {
-                testContextInstance = value;
-            }
+            lgBUS = new LoginBUS();
+            frmMail = new FormMain();
+            form = new FormMain();
         }
-
         #region Additional test attributes
         //
         // You can use the following additional attributes as you write your tests:
@@ -66,14 +52,11 @@ namespace TestProject
         // public void MyTestCleanup() { }
         //
         #endregion
-
         [TestMethod]
         public void TestMaHoaFail()
         {
-            
             string expected = "manhhuy";
             string actual = form.MaHoa("manhhuy");
-
             Assert.AreEqual(expected, actual);
         }
 
@@ -100,7 +83,8 @@ namespace TestProject
         }
 
         [TestMethod]
-        public void TestLoginNull() {
+        public void TestLoginNull()
+        {
             IList<LoginDTO> iList = lgBUS.Login("", frmMail.MaHoa(""));
             Assert.AreEqual(1, iList.Count());
         }

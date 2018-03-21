@@ -10,9 +10,7 @@ using DTO;
 
 namespace TestProject
 {
-    /// <summary>
-    /// Summary description for TestDatPhong
-    /// </summary>
+
     [TestClass]
     public class TestDatPhong
     {
